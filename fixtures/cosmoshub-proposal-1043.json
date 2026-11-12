@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-07-06T18:27:18.855489287Z",
+    "expedited": false,
+    "failed_reason": "",
+    "final_tally_result": {
+      "abstain_count": "6271064172923",
+      "no_count": "2039207968747",
+      "no_with_veto_count": "8943266024",
+      "yes_count": "127185188734836"
+    },
+    "id": "1043",
+    "messages": [
+      {
+        "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+        "amount": [
+          {
+            "amount": "202320000000",
+            "denom": "ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013"
+          }
+        ],
+        "authority": "cosmos10d07y265gmmuvt4z0w9aw880jnsr700j6zn9kn",
+        "recipient": "cosmos1ax7krw2ymq8upaxwce7df3xpalpp0jddm29fws"
+      }
+    ],
+    "metadata": "ipfs://",
+    "proposer": "cosmos1cc5mtuje84sx5dsqw4gtr4w8lthpzw02rjjnew",
+    "status": "PROPOSAL_STATUS_PASSED",
+    "submit_time": "2026-06-22T18:27:18.855489287Z",
+    "summary": "\r\n## Summary\r\n\r\nThis proposal requests 202,320 USDC to fund one year of work (August 1, 2026 - July 31, 2027) at a monthly flat rate of 16,860 to cover stewardship and maintenance of the Hub's persistent testnet. This flat rate would be withdrawn in USDC from the community pool and held in a Hypha-controlled wallet to be invoiced ahead of each month covered by the funding proposal.\r\n\r\nThis scope of work includes organizing and running testnet events, reporting validator participation to the Interchain Foundation for the delegations program, and running and administering testnet infrastructure such as snapshots and faucets. It also includes necessary coordination with Cosmos Labs around Gaia release readiness, upgrade rehearsals, testnet-to-mainnet planning, and information transfer for the purposes of reporting and accountability.\r\n\r\nGaia development and maintenance, verification and validation testing, QA, incident response, and mainnet coordination and upgrade monitoring are explicitly **not-in-scope** for this proposal.\r\n\r\n## Additional details\r\n* Full proposal text with changelog and discussion on the forum [here](https://forum.cosmos.network/t/last-call-fund-hypha-to-operate-the-hubs-public-testnet-program-for-2026-2027/17033).\r\n\r\n## Governance votes and outcomes\r\n\r\n**The following items summarize the voting options and what it means for this proposal:**\r\n\r\n- **YES:** You agree to fund the Hub testnets team at Hypha Worker Co-operative with a 202k USDC budget for continued stewardship of the Hub's public testnet over the period of August 1, 2026 - July 31, 2027. A 'YES' outcome will immediately release 202k USDC to the specified wallet (`TBD`).\r\n- **NO:** You do not agree to fund the Hub testnets team at Hypha Worker Co-operative based on the terms of this proposal.\r\n- **NO WITH VETO:** A 'NoWithVeto' vote indicates a proposal either (1) is deemed to be spam, i.e., irrelevant to Cosmos Hub, (2) disproportionately infringes on minority interests, or (3) violates or encourages violation of the rules of engagement as currently set out by Cosmos Hub governance. If the number of 'NoWithVeto' votes is greater than a third of total votes, the proposal is rejected and the deposits are burned.\r\n- **ABSTAIN:** You wish to contribute to the quorum but you formally decline to vote either for or against the proposal.\r\n\r\n## Hypha's past work on the Hub\r\n\r\nHypha has been a core contributing team on the Cosmos Hub since 2022 with a focus on the Hub's persistent testnet. Our work over the past four years has comprised:\r\n\r\n- Weekly or biweekly validator training on new Gaia releases and features released as part of Interchain Security\r\n- Establishing the Testnet Incentives Program to compensate validators for their contributions to the Hub's live testnet (funded at one point or another by AADAO, ICF, and the ICF delegations program)\r\n- Mainnet coordination of upgrades via governance, via manual halt height, and via emergency binary swaps\r\n- Maintenance and dependency bumps for Gaia\r\n- Integration of features requested directly by the community, such as the tokenfactory module\r\n- Deprecation of Interchain Security\r\n- Major upgrade testing and de-risking for all Gaia releases through local testnets, devnets, and public Hub testnets\r\n\r\n## Scope of proposed work\r\n\r\n### Training Ground\r\n- Designing and running weekly events that walk validators through new features and upgrade paths\r\n- Providing direct support and troubleshooting to node operators\r\n- Establishing and reinforcing operational best practices across the validator set\r\n- Tracking performance and reporting points to ICF on a regular schedule\r\n\r\n### Rehearsal Environment\r\n- Coordinating upgrade rehearsals with the Cosmos Labs mainnet team, collecting validator feedback, and reporting any findings to Cosmos Labs or the relevant upstream maintainer to support testnet-to-mainnet pushes\r\n- Documenting resource requirements, timing considerations, and any operational edge cases surfaced during testing\r\n- Identifying compatibility issues with third-party tooling before they affect mainnet\r\n\r\n### Development Platform\r\n- Supporting teams running feature or integration testing against live Gaia code\r\n- Maintaining IBC connections to other test networks\r\n- Assisting less technical participants in learning to interact with the Hub, including governance proposal testing\r\n\r\n## Work not in-scope\r\nCosmos Labs' renewed focus on the Hub means that Hypha will be transitioning many pieces of work and will no longer be responsible for the following items which were included in our 2025/2026 contracts (both with the Hub community and Cosmos Labs directly):\r\n\r\n- Gaia codebase development and maintenance\r\n- Release and upgrade testing\r\n- Mainnet coordination and upgrade monitoring\r\n- Hub incident response\r\n\r\n## Budget and logistics\r\n\r\nThis proposal asks for a budget of 202,320 USDC, to be invoiced monthly at 16,860 USDC. Our calculations for this monthly rate are given below.\r\n\r\n| Item | Value |\r\n|---|---|\r\n| Baseline monthly labour | 45 hours |\r\n| \"Busy month\" padding | + 18 hours |\r\n| Effective billed hours | = 63 hours |\r\n| Hourly consultancy rate | 220 USD |\r\n| Labour subtotal | 13,860 USD |\r\n| Infrastructure costs | + 3,000 USD |\r\n| Monthly flat rate | = 16,860 USD |\r\n| **Annual total** | **202,320 USD** |\r\n\r\n1. A flat rate means that if we work more or less than the effective billed hours, we are paid the same amount regardless. We think this is the appropriate structure for a deliverables-based contract as it incentivizes the contractor (Hypha) to work efficiently rather than inflate our hours.\r\n2. Hypha is a software consultancy, with operating costs. Our consultancy rate is inclusive of our operating costs and profit margin.\r\n\r\nThe community pool currently contains roughly 1 million USDC, so this proposal will directly request USDC to avoid the need for any buffer and liquidation logistics. If the proposal passes, this amount would be transferred from the community pool into a Hypha-controlled wallet and the team will invoice this wallet in advance every month for the duration of the proposal's funding period.\r\n\r\nIf the community puts up and passes a proposal instructing Hypha to suspend our work on the testnet, we will immediately stop our work, provide transition materials to a successor team specified to the community, and return any un-invoiced funds to the community pool.\r\n",
+    "title": "Fund Hypha to operate the Hub's public testnet program for 2026/2027",
+    "total_deposit": [
+      {
+        "amount": "500000000",
+        "denom": "uatom"
+      }
+    ],
+    "voting_end_time": "2026-06-29T18:31:14.322746164Z",
+    "voting_start_time": "2026-06-22T18:31:14.322746164Z"
+  }
+}

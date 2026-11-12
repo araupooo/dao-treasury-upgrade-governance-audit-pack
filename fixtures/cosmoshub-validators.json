@@ -1,0 +1,1082 @@
+[
+  {
+    "operator_address": "cosmosvaloper1qe2s0gguw2khnpfteqy8mhsh5qtmmujfa6fas9",
+    "moniker": "Kraken03",
+    "tokens": "16790995019335",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1q6d3d089hg59x6gcx92uumx70s5y5wadklue8s",
+    "moniker": "Ubik Capital",
+    "tokens": "918214298743",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1qa6x6sl9lsw9neceqccndwnnnm50ldq800x4dq",
+    "moniker": "bitszn | valopers.com",
+    "tokens": "1989929970",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1qaa9zej9a0ge3ugpx3pxyx602lxh3ztqgfnp42",
+    "moniker": "GAME",
+    "tokens": "2679294045430",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1p8uxq4ska2psv2k8wknljh568k5qfnwt0m3udk",
+    "moniker": "Encapsulate",
+    "tokens": "1763073084",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ptyzewnns2kn37ewtmv6ppsvhdnmeapvtfc9y5",
+    "moniker": "WeStaking",
+    "tokens": "397304765309",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1pjmngrwcsatsuyy8m3qrunaun67sr9x7z5r2qs",
+    "moniker": "Cypher Core",
+    "tokens": "61804707801",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1p56qjzs9jj5ylhnn3en23e0xrdkz9g70yh5kks",
+    "moniker": "matsuri",
+    "tokens": "1511266275",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1pu55h3u7d2azvvgn3azvc0qvly8sudl44a9m7d",
+    "moniker": "ATOM Renaissance",
+    "tokens": "1899308161666",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1zqgheeawp7cmqk27dgyctd80rd8ryhqs6la9wc",
+    "moniker": "NO! Fee to 2025 \ud83d\udcb8 | melea.xyz",
+    "tokens": "2000984681073",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1zk49r55txl9a7nttjcsqjrg5lus8hckkhgzez7",
+    "moniker": "Gate Earn",
+    "tokens": "1033222151124",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1zmgj4wx0ddgktmg9332f3szjsqlm4yk9pwdccl",
+    "moniker": "Sr20de",
+    "tokens": "309692768516",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1rxvkwfw3467nxgs6r7yav6cnygkjzkkc2defr6",
+    "moniker": "Cryptostake.com \ud83c\udde8\ud83c\udded\ud83c\uddfa\ud83c\udde6",
+    "tokens": "653289717535",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1rtlg9jnlezwg83eep5zu25sfxndgud5awcaeqn",
+    "moniker": "Xilodyne",
+    "tokens": "59700679280",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1rwh0cxa72d3yle3r4l8gd7vyphrmjy2kpe4x72",
+    "moniker": "Factor",
+    "tokens": "1677104498615",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1rjujxmsdk3n7hj07q54huh4esf4v0ts8mezqam",
+    "moniker": "DELIGHT",
+    "tokens": "314510265879",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1rcp29q3hpd246n6qak7jluqep4v006cdsc2kkl",
+    "moniker": "Skip",
+    "tokens": "17856731181",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1yfnaup5wa3vdzx3wx9auhvzl85saqj37tqxqnu",
+    "moniker": "Moonlet",
+    "tokens": "472725234913",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1yw5s259jkcg0jzmh7sce29uk0lqqw2ump7578p",
+    "moniker": "CEX.IO Validator",
+    "tokens": "850666690197",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2ztve7q",
+    "moniker": "Swiss Staking",
+    "tokens": "1988065626875",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1y3pjm65prcek6gn7n0k488r9f594ednuxuw25q",
+    "moniker": "Snow Fall",
+    "tokens": "20353558974",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1yh089p0cre4nhpdqw35uzde5amg3qzexkeggdn",
+    "moniker": "HighStakes.ch | Daily Airdrops",
+    "tokens": "1101966331310",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper19yy989ka5usws6gsd8vl94y7l6ssgdwsrnscjc",
+    "moniker": "OKXEarn",
+    "tokens": "4734501598527",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper199mlc7fr6ll5t54w7tts7f4s0cvnqgc59nmuxf",
+    "moniker": "TaxiStake",
+    "tokens": "882129585714",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper19f0w9svr905fhefusyx4z8sf83j6et0g9l5yhl",
+    "moniker": "NodeStake",
+    "tokens": "1410959150743",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper19j2hd230c3hw6ds843yu8akc0xgvdvyuz9v02v",
+    "moniker": "vido.info",
+    "tokens": "324970989969",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper196ax4vc0lwpxndu9dyhvca7jhxp70rmcvrj90c",
+    "moniker": "SG-1",
+    "tokens": "8508157972434",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1xqz9pemz5e5zycaa89kys5aw6m8rhgsvw4328e",
+    "moniker": "\ud83d\udc39 Quokka Stake",
+    "tokens": "384303627565",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1x8yjkhrffte4850tzdtfuq6nhs5vf950l86uea",
+    "moniker": "Asterlane",
+    "tokens": "4884757510",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1x8efhljzvs52u5xa6m7crcwes7v9u0nlwdgw30",
+    "moniker": "Upbit Staking",
+    "tokens": "25428221655617",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1xtn07s5xge4kewzgf5avvlag9474dez72lrhq4",
+    "moniker": "The Cosmonauts' Corner",
+    "tokens": "671826357416",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1x3mkgqpshvpq87d33ndsleu7gd7w47dl4ve0yy",
+    "moniker": "CrowdControl",
+    "tokens": "26676809401",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper18ruzecmqj9pv8ac0gvkgryuc7u004te9rh7w5s",
+    "moniker": "Binance Node",
+    "tokens": "10338573171958",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper188l6kl0k9dujfd9y3la6w5ykvxzechd8a06z55",
+    "moniker": "Inter Blockchain Services",
+    "tokens": "351899049300",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper18g8wau89mf37h6uqj660kcvxq0jmdz6twgy7ma",
+    "moniker": "NodesHub",
+    "tokens": "1324439702",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper18g6vu6qn3qdm2wttwpcyr8638usjw5s38f3wdm",
+    "moniker": "DURE Nodes",
+    "tokens": "1028100000",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper18sqvyf4ss84qree7gndph5chmm82fglsqfylwn",
+    "moniker": "PRO Delegators",
+    "tokens": "2384386155256",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper18s3k8dt73e28rraqk70u9xwtv9wlav83n5mqjx",
+    "moniker": "Colossus",
+    "tokens": "766846279509",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper18extdhzzl5c8tr6453e5hzaj3exrdlea90fj3y",
+    "moniker": "Smart Stake",
+    "tokens": "404254557136",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper18m9wncg0w74vusm4xu0mk6ha2lpdrqq7c9cjq3",
+    "moniker": "The_Cybernetics",
+    "tokens": "1656376971430",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1gqem6t55xrjc8nqf7y8jyp9xzgnm60zu007nrl",
+    "moniker": "Coinbase02",
+    "tokens": "1005369692336",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1gp957czryfgyvxwn3tfnyy2f0t9g2p4pqeemx8",
+    "moniker": " polkachu.com",
+    "tokens": "1367998104539",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1gpx52r9h3zeul45amvcy2pysgvcwddxrgx6cnv",
+    "moniker": "StakeLab.zone",
+    "tokens": "990870260253",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1grgelyng2v6v3t8z87wu3sxgt9m5s03xfytvz7",
+    "moniker": "iqlusion",
+    "tokens": "1582546638599",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1gxju9ky3hwxvqqagrl3dxtl49kjpxq6wlqe6m5",
+    "moniker": "\ud83c\udde8\ud83c\udded Vortex.live \ud83d\udfe2",
+    "tokens": "210844292383",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1gf3dm2mvqhymts6ksrstlyuu2m8pw6dhfp9md2",
+    "moniker": "Keplr",
+    "tokens": "6623049062865",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1gf4wlkutql95j7wwsxz490s6fahlvk2s9xpwax",
+    "moniker": "Stakewolle.com |100% Insurance",
+    "tokens": "139743416517",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7sxzwx",
+    "moniker": "EZ Staking",
+    "tokens": "120402861754",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1g48268mu5vfp4wk7dk89r0wdrakm9p5xk0q50k",
+    "moniker": "Provalidator",
+    "tokens": "2794056377825",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1gah0q9gqypnr7ufzg0dcda3k6v8qp4ceddn8fs",
+    "moniker": "Enigma",
+    "tokens": "648747495541",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ff0dw8kawsnxkrgj7p65kvw7jxxakyf8n583gx",
+    "moniker": "Compass",
+    "tokens": "103244509692",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1fsg635n5vgc7jazz9sx5725wnc3xqgr7awxaag",
+    "moniker": "Crosnest",
+    "tokens": "183693414681",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1fs0vl7jem78pmhladkludtkun3cgkrwkt8czur",
+    "moniker": "\ud83d\udee1\ufe0fBunkerstake.io",
+    "tokens": "569014448413",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1fhr7e04ct0zslmkzqt9smakg3sxrdve6ulclj2",
+    "moniker": "Stakin by The Tie",
+    "tokens": "460354080292",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1fun809ksxh87nzf88yashp9ynjz6xkscrtvzvw",
+    "moniker": "Tessellated",
+    "tokens": "337718611510",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper12qjmna3sd0hrg766etek5wkg3t7sahxmkrkx87",
+    "moniker": "Unity Nodes",
+    "tokens": "956649738",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper12ffumnqj96k5ryyldu0m4qhc6rm505656fvcqj",
+    "moniker": "n1stake",
+    "tokens": "1001000000",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper12dm2v5yk62k3em0lu7g5ddzrymy832r6vn46j3",
+    "moniker": "Atlas Staking (Auto-compound rewards with REStake)",
+    "tokens": "892794199921",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper124maqmcqv8tquy764ktz7cu0gxnzfw54n3vww8",
+    "moniker": "Simply Staking",
+    "tokens": "432640947197",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper12635uurm2zqmutt32kx86ysyh4lv0q9hujp9wv",
+    "moniker": "Crosnest",
+    "tokens": "328006475321",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1tflk30mq5vgqjdly92kkhhq3raev2hnz6eete3",
+    "moniker": "Everstake",
+    "tokens": "14257847135230",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1t357me08a2d6kn2gy4vawcjrvnu9wwup64xmnn",
+    "moniker": "WB",
+    "tokens": "2419615143",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1te8nxpc2myjfrhaty0dnzdhs5ahdh5agzuym9v",
+    "moniker": "CoinoneNode",
+    "tokens": "2474613188109",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ta3zed9p4q2ynnpgrw7m63wqd9e4xg2p2842gc",
+    "moniker": "NexuSecurus",
+    "tokens": "11206218923",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1vyg0fjqxkgwz70vnkzz9y6z3t64grxr3jd69tl",
+    "moniker": "EthicalNode (new)",
+    "tokens": "512404129300",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1vf44d85es37hwl9f4h9gv0e064m0lla60j9luj",
+    "moniker": "MultiChain ventures",
+    "tokens": "173830464050",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1vvwtk805lxehwle9l4yudmq6mn0g32px9xtkhc",
+    "moniker": "Imperator.co",
+    "tokens": "1920466239631",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1v69lzl909kje64k8vae24uytpxcnpxgullz2dx",
+    "moniker": "TB Club | Autocompound through REStake",
+    "tokens": "457330179893",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ddle9tczl87gsvmeva3c48nenyng4n56nghmjk",
+    "moniker": "Vitwit (Previously Witval)",
+    "tokens": "469324938396",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1d0aup392g3enru7eash83sedqclaxvp7fzh6gk",
+    "moniker": "Stir",
+    "tokens": "357866340211",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1de7qx00pz2j6gn9k88ntxxylelkazfk3g8fgh9",
+    "moniker": "Cosmic Validator | 100% Uptime & Auto-compound",
+    "tokens": "292474924214",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1dm0zlcyseugtgwlphgdul29mcvxpay5xgemyqc",
+    "moniker": "Cumulo",
+    "tokens": "315260598925",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1wrx0x9m9ykdhw9sg04v7uljme53wuj03aa5d4f",
+    "moniker": "Meria",
+    "tokens": "2869018053930",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1wvt5zugk97mrl5rm9c3m573f9gj03w2gyh8m5v",
+    "moniker": "CloudByte",
+    "tokens": "5661072424454",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1wdrypwex63geqswmcy5qynv4w3z3dyef2qmyna",
+    "moniker": "Stakeflow",
+    "tokens": "295885674617",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ww9dg7fgy6d3l89exlx9wsl86ycrnjp448ry75",
+    "moniker": "VoidStake",
+    "tokens": "619049043360",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1wwspfe7whh3zu4ql5rvpg044lyk6cuu7fpnd9e",
+    "moniker": "Bit Cat\ud83d\udc31",
+    "tokens": "6210182757",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1w0ashr4s08g06xh8gvzk458kx36n309anz2r3g",
+    "moniker": "LuckyStar",
+    "tokens": "1052598317",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1we6knm8qartmmh2r0qfpsz6pq0s7emv3e0meuw",
+    "moniker": "Kraken Decommissioning node, re-delegate to another node",
+    "tokens": "414523823800",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1wlagucxdxvsmvj6330864x8q3vxz4x02rmvmsu",
+    "moniker": "DSRV",
+    "tokens": "279285912254",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper102ruvpv2srmunfffxavttxnhezln6fnc54at8c",
+    "moniker": "Ztake.org",
+    "tokens": "36869587713",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper10wljxpl03053h9690apmyeakly3ylhejrucvtm",
+    "moniker": "Ledger by Bitwise",
+    "tokens": "9823386962086",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper10s36m3337ez0f0g0s0jxlk3pfn48yfkdm3f5l0",
+    "moniker": "Synergy Nodes",
+    "tokens": "1120600000",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper10sjr8xv2yr83agmzw7acf6xxqrw8e3q6wvh5ne",
+    "moniker": "Coinbase01",
+    "tokens": "65402487112385",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper103agss48504gkk3la5xcg5kxplaf6ttnuv234h",
+    "moniker": "MANTRA",
+    "tokens": "338896503017",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper10jzj3jjd3frna0ay08sh4zu4fpy957s49jkk7m",
+    "moniker": "Onbloc Node",
+    "tokens": "158123691665",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper10nzaaeh2kq28t3nqsh5m8kmyv90vx7ym5mpakx",
+    "moniker": "Blockdaemon",
+    "tokens": "10088644307723",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper106yp7zw35wftheyyv9f9pe69t8rteumjrx52jg",
+    "moniker": "Bro_n_Bro 100% Slash-protected",
+    "tokens": "53041487987",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper10unx6s0cdqntvrumd5hs07rgd5ytcztqh8etw6",
+    "moniker": "GATA HUB",
+    "tokens": "474686414244",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1symf474wnypes2d3mecllqk6l26rwz8mfjqdus",
+    "moniker": "BlockHunters \ud83c\udfaf",
+    "tokens": "987293935035",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1sgcfa5z7dmhekhf79m040natu37unyuek54tp7",
+    "moniker": "Kleomedes",
+    "tokens": "318878060424",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1sd4tl9aljmmezzudugs7zlaya7pg2895ws8tfs",
+    "moniker": "InfStones",
+    "tokens": "1041527884411",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ssm0d433seakyak8kcf93yefhknjleeds4y3em",
+    "moniker": "IRISNET",
+    "tokens": "151151141990",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1sjllsnramtg3ewxqwwrwjxfgc4n4ef9u2lcnj0",
+    "moniker": "\ud83d\udc20stake.fish",
+    "tokens": "5670287616595",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1s5kufhghcyqkpp0ps0w9kn3lmn9wp8g5lkk07e",
+    "moniker": "ITRocket",
+    "tokens": "2225665077",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper13ql36flc4cdjhx08hke5vpr4dyv03aafnmvtnc",
+    "moniker": "TTT VN",
+    "tokens": "89497791032",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper13p5ckpmc9g2v8ez5qsxs00wadqvcc7q0qheh26",
+    "moniker": "Cosmos Spaces",
+    "tokens": "10901706634",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper13x4pynlp86prhcmtns742kgsgu7pjtzj4djh7s",
+    "moniker": "CryptoDungeon",
+    "tokens": "111806166857",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper13x77yexvf6qexfjg9czp6jhpv7vpjdwwkyhe4p",
+    "moniker": "blockscape",
+    "tokens": "29910481574",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper132juzk0gdmwuxvx4phug7m3ymyatxlh9734g4w",
+    "moniker": "P2P.org",
+    "tokens": "3610008037412",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper13nwzm5dfd26ue74jr6sc39gyn3qze0rjzsyh4e",
+    "moniker": "BonyNode\ud83d\udc9a",
+    "tokens": "7700838822",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1jx7uhnrg8pylqydtxwykc288mzh24866emytpa",
+    "moniker": "Sygnum Validators",
+    "tokens": "245010334145",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1jftg6dzhsu7kvn9vyztsnegqfrrzlcgeklyvgu",
+    "moniker": "POSITIVA Ultra",
+    "tokens": "308750011660",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1j3remw0kpu5cwkhhkwtmenutzcdn06c4wq0s56",
+    "moniker": "cp0x_by_STAKRspace",
+    "tokens": "3881229257",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1j4j82e5fagc7n3wrv8cjj99tg69wp2jp0tqhj3",
+    "moniker": "navs",
+    "tokens": "311380432012",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1jmykcq8gylmy5tgqtel4xj4q62fdt49sl584xd",
+    "moniker": "Blocks United | blocksunited.com",
+    "tokens": "275640497224",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1jlr62guqwrwkdt4m3y00zh2rrsamhjf9num5xr",
+    "moniker": "Nansen | Stake to Stack Points",
+    "tokens": "3556574391841",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1nz3c4q40j8jyvg2hcljkwhe69872mnllf7v9xh",
+    "moniker": "Interstellar \ud83c\udf78",
+    "tokens": "891262610812",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1n87dnldjctexytpnfswcwwcrypn9c9rlj8jp0d",
+    "moniker": "KonsorTech",
+    "tokens": "816993782",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1n229vhepft6wnkt5tjpwmxdmcnfz55jv3vp77d",
+    "moniker": "Allnodes",
+    "tokens": "9809785474653",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ndgst9sslw5wdkag98ygsfytvctmymtugtkzxk",
+    "moniker": "PathrockNetwork",
+    "tokens": "1244847818",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1n3mhyp9fvcmuu8l0q8qvjy07x0rql8q46fe2xk",
+    "moniker": "0base.vc",
+    "tokens": "704747281778",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1nkkdef4flw8s3jxnmdyqnr7rwgfpw2kv9lx0ug",
+    "moniker": "Expedition",
+    "tokens": "370311259783",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1nuhls0wyf8slhmuasha5pz0u89jrf9nnugq8ak",
+    "moniker": "Golden Ratio Staking",
+    "tokens": "757037677131",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1nlfrwx5t3mm3cuqqkvjv6jv24m7s2z5utzfe8s",
+    "moniker": "CroutonDigital",
+    "tokens": "869027457879",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper15p76pjzkgk8hd5klsns5d6fm6ajc0jh93xa8a3",
+    "moniker": "Nodiums",
+    "tokens": "1284555562",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper15gyzcp2kas2yntv9k3p0zm4k8y6e89ecmkeqee",
+    "moniker": "Kiln",
+    "tokens": "23512693964048",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper15w6ra6m68c63t0sv2hzmkngwr9t88e23r8vtg5",
+    "moniker": "w3coins",
+    "tokens": "358288172316",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper156gqf9837u7d4c4678yt3rl4ls9c5vuursrrzf",
+    "moniker": "Binance Staking",
+    "tokens": "1969265268505",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper15urq2dtp9qce4fyc85m6upwm9xul3049e02707",
+    "moniker": "Bitwise Onchain Solutions",
+    "tokens": "6751409528452",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper15uarq305pfjftjv532jakjx0p52zflzxfr8e42",
+    "moniker": "Old EthicalNode - please redelegate to EthicalNode (new)",
+    "tokens": "15787366523",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper157v7tczs40axfgejp2m43kwuzqe0wsy0rv8puv",
+    "moniker": "POSTHUMAN \ud83e\uddec StakeDrop",
+    "tokens": "1988310407815",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper14qazscc80zgzx3m0m0aa30ths0p9hg8vdglqrc",
+    "moniker": "Solva (CryptoCrew)",
+    "tokens": "548194344949",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper14yncgrhz5t0j6p9yfm0eht65ltter2kqwkn6dc",
+    "moniker": "Quasar \ud83e\udd16\ud83e\uddec\ud83e\udde0",
+    "tokens": "511299476872",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper142j860f0d8jl89eh2pzsjk8wv202tav3fj3emz",
+    "moniker": "Magnet",
+    "tokens": "899555191",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper140jk9zk6sqzu2z3em2qjctcyzgysppvy5ttcp8",
+    "moniker": "Stix",
+    "tokens": "880072416939",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper140kq2fts8ed9m73a6dch7sgdap6hnp2p95f92k",
+    "moniker": "Chiter in Cosmos \u269b",
+    "tokens": "791079368644",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper140e7u946a2nqqkvcnjpjm83d0ynsqem8dnp684",
+    "moniker": "Coinage x DAIC",
+    "tokens": "41185469021",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper140l6y2gp3gxvay6qtn70re7z2s0gn57zfd832j",
+    "moniker": " Lavender.Five Nodes \ud83d\udc1d",
+    "tokens": "1200815196342",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper144xwxcrlntp4wjadhrylzc6p3vdzscyedn70nu",
+    "moniker": "DKCMC",
+    "tokens": "800247873886",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper14kn0kk33szpwus9nh8n87fjel8djx0y070ymmj",
+    "moniker": "Forbole",
+    "tokens": "140826252508",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper146kwpzhmleafmhtaxulfptyhnvwxzlvm87hwnm",
+    "moniker": "\ud83c\udf10 KysenPool Sky \u2601\ufe0f ",
+    "tokens": "74070360161",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper14l0fp639yudfl46zauvv8rkzjgd4u0zk2aseys",
+    "moniker": "Atomic power node",
+    "tokens": "11270358526",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper14lultfckehtszvzw4ehu0apvsr77afvyju5zzy",
+    "moniker": "DokiaCapital",
+    "tokens": "6629432272018",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1k2d9ed9vgfuk2m58a2d80q9u6qljkh4vfaqjfq",
+    "moniker": "Stakecito Labs",
+    "tokens": "2067600862971",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1kn3wugetjuy4zetlq6wadchfhvu3x740ae6z6x",
+    "moniker": "Huobi",
+    "tokens": "45235844204",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1k6e7l0lz497l8njqjxpd3g4wlkdfwe93uqf03k",
+    "moniker": "Trust Nodes",
+    "tokens": "1772033761375",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1k7us5jyvyfhhcqdkzuzh0yl6f9pgz9ulvn4qxl",
+    "moniker": "den4ik",
+    "tokens": "1132000000",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1h87hvd873tp6ufk83hcxfyz6xndffzla5dw7sg",
+    "moniker": "Coinbase03",
+    "tokens": "3396474655708",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1hg4wpfzr70d9vjzlwfeel555f6plwj2jqpx9sh",
+    "moniker": "\ud83d\udc14 The Chicken Coop \ud83e\udd9d Homestead",
+    "tokens": "3081522972",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1hdrlqvyjfy5sdrseecjrutyws9khtxxaux62l7",
+    "moniker": "SmartNodes",
+    "tokens": "77847341066",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1hjct6q7npsspsg3dgvzk3sdf89spmlpfdn6m9d",
+    "moniker": "Figment",
+    "tokens": "8958264277508",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1hjadhj9nqzpye2vkmkz4thahhd0z8dh3udhq74",
+    "moniker": "Stake Shark",
+    "tokens": "627445323913",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1h57tsdp0te47jtrv4tl9yhygc8mlvl2uh5xk4q",
+    "moniker": "CosmoWiz",
+    "tokens": "821000000",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1hkqejlyrj9h8knms9hwvrnp9xhqvjqlseh06vq",
+    "moniker": "cosmosrescue",
+    "tokens": "967862112018",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1heqdazsaugqh9l8pv3rwqt93e2fsz92xfpjhgj",
+    "moniker": "zero_commission_validator",
+    "tokens": "335411792871",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1heureewmhkhgud8ufucz5h4vl385fe04yqt7hc",
+    "moniker": "M256",
+    "tokens": "311077740660",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1hmd535f69t3x262m6s9wc6jd0dmel2zevhyuhm",
+    "moniker": "PRYZM | StakeDrop",
+    "tokens": "889307736125",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1cgh5ksjwy2sd407lyre4l3uj2fdrqhpkzp06e6",
+    "moniker": "HashKey Cloud",
+    "tokens": "120208165769",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1cs0vx7nn7j8eclefqn6c4xcgc58qw88hl2vc83",
+    "moniker": "LoomNode",
+    "tokens": "885981591",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ey69r37gfxvxg62sh4r0ktpuc46pzjrm873ae8",
+    "moniker": "Sikka",
+    "tokens": "3086998955475",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u",
+    "moniker": "Citizen Web3",
+    "tokens": "293105700816",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1e0plfg475phrsvrlzw8gwppeva0zk5yg9fgg8c",
+    "moniker": "Easy 2 Stake",
+    "tokens": "145413562986",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1eh5mwu044gd5ntkkc2xgfg8247mgc56fz4sdg3",
+    "moniker": "BouBouNode",
+    "tokens": "2459439865942",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ehkfl7palwrh6w2hhr2yfrgrq8jetgucudztfe",
+    "moniker": "KalpaTech",
+    "tokens": "334075969261",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ea086t78a54r0q6uaw3hd5dxx0jmmc8csn3r2y",
+    "moniker": "Anther",
+    "tokens": "1405471706",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper16qnr6snzq49l6grkyu39lzchnfv3ajfdvejx55",
+    "moniker": "Stake&Relax \ud83e\udda5",
+    "tokens": "376581729516",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper16yupepagywvlk7uhpfchtwa0stu5f8cyhh54f2",
+    "moniker": "Stakely.io",
+    "tokens": "762204904503",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper160794m2vw5yu2dvmsw8lcjh33ur26myjxurm4n",
+    "moniker": "\ud83d\udc31biglazycat.com",
+    "tokens": "994385753554",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper16s96n9k9zztdgjy8q4qcxp4hn7ww98qkrka4zk",
+    "moniker": "Nodeify",
+    "tokens": "146657592188",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper16k579jk6yt2cwmqx9dz5xvq9fug2tekvlu9qdv",
+    "moniker": "Informal Systems",
+    "tokens": "4314608305130",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1mfc2f7c45u9ucs3l9uezm3hck89r678956wxlm",
+    "moniker": "Referral.Trading",
+    "tokens": "2000000000",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1mnjg9xhraxljrccyw9y6u22ws0fa5asa38nd2q",
+    "moniker": " kjnodes.com \ud83e\udd84",
+    "tokens": "4775407999",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1m73mgwn3cm2e8x9a9axa0kw8nqz8a492ms63vn",
+    "moniker": "Oldcat",
+    "tokens": "611896818009",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ukpah0340rx7k3x2njnavwyjv6pfpvn632df9q",
+    "moniker": "IcyCRO \ud83e\uddca",
+    "tokens": "202840271171",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1uhnsxv6m83jj3328mhrql7yax3nge5svrv6t6c",
+    "moniker": "S16 Research Ventures",
+    "tokens": "279927321257",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ualhu3fjgg77g485gmyswkq3w0dp7gys6qzwrv",
+    "moniker": "stake.systems | autocompound",
+    "tokens": "603249503540",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1a8xaz7g2zjclatms09xf2dkd3n8kpqshwpuvv7",
+    "moniker": "ChainTools",
+    "tokens": "3542208780",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1adeutltcyma2zxdlls87e5cvnk0ze6rvhhfjsl",
+    "moniker": "Perfect-nodes",
+    "tokens": "964000000",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1a37ze3yrr2y9nn98l6frhjskmufvd40cpyd0gq",
+    "moniker": "ECO Stake \ud83c\udf31 | REStake.app",
+    "tokens": "1136537890704",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1aewyh4gtvayx6v7w592jdfylawk4rsu9tfvfgm",
+    "moniker": "Silk Nodes",
+    "tokens": "864628696217",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1am8wmhwta4swx8f4quvffu7hqw48aujwypp0ew",
+    "moniker": "Huginn",
+    "tokens": "302795523683",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper17dwgf5384udeuaypmyvveyvesu5y4yxu5xmu38",
+    "moniker": "VALIDARIOS",
+    "tokens": "309284804387",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper17jjpph2utt7eq3wjw9097hjgelmn9j4wxsxfey",
+    "moniker": "Endorphine Stake",
+    "tokens": "1476386103",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper17h2x3j7u44qkrq0sk8ul0r2qr440rwgjkfg0gh",
+    "moniker": "FreshSTAKING",
+    "tokens": "177322609375",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper17mggn4znyeyg25wd7498qxl7r2jhgue8u4qjcq",
+    "moniker": "01node",
+    "tokens": "599165313456",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1lzhlnpahvznwfv4jmay2tgaha5kmz5qxerarrl",
+    "moniker": "Citadel.one",
+    "tokens": "1090608598735",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1lrzxwu4dmy8030waevcpft7rpxjjz26cpzvumd",
+    "moniker": "node101",
+    "tokens": "552139950607",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1ljunhq7dvwctqn40wv55t52562endx3p4hm06u",
+    "moniker": "StakeUp",
+    "tokens": "1053150000",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "cosmosvaloper1lktjhnzkpkz3ehrg8psvmwhafg56kfss3q3t8m",
+    "moniker": "Umbrella \u2614",
+    "tokens": "39333039654",
+    "status": "BOND_STATUS_BONDED"
+  }
+]

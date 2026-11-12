@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-09-24T21:09:32.889664560Z",
+    "expedited": false,
+    "failed_reason": "",
+    "final_tally_result": {
+      "abstain_count": "74701254586212",
+      "no_count": "7089719771893",
+      "no_with_veto_count": "5300547672",
+      "yes_count": "100513125657252"
+    },
+    "id": "1054",
+    "messages": [
+      {
+        "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+        "amount": [
+          {
+            "amount": "300740000000",
+            "denom": "ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013"
+          }
+        ],
+        "authority": "cosmos10d07y265gmmuvt4z0w9aw880jnsr700j6zn9kn",
+        "recipient": "cosmos1fhwnl8tls2z4leyyvluyqq8erzmwzepcku8zkg"
+      }
+    ],
+    "metadata": "ATOM Integration & Listing on Paxos\u2019 Regulated Brokerage Infrastructure",
+    "proposer": "cosmos1velf3gmdsdxe68tvfgj2t3c4570dpfu04ke0fn",
+    "status": "PROPOSAL_STATUS_PASSED",
+    "submit_time": "2026-09-10T21:09:32.889664560Z",
+    "summary": "**Author**: Paxos\n\n**Target Recipient**: Paxos Trust Company, N.A.\n\n**Requested Amount**: 300,740 USDC\n\n**Payment Terms**: Settlement Upon vote-passage\n\n**Target Launch Date**: September 18\n\n## 1. Executive Summary\nThis proposal requests a one-time Community Treasury Spend of **300,740 USDC** from the Cosmos Hub Treasury to complete the technical integration, liquidity onboarding, and institutional listing of ATOM on the **Paxos Enterprise Brokerage and Custody Platform**.\n\nATOM has successfully cleared Paxos\u2019s standard risk review (**Status: Greenlit**). The Cosmos team and Paxos have been engaged for the last couple of months to scope this partnership and are excited to bring this to the DAO for decision. Technical integration and liquidity provisioning are currently underway to meet a targeted platform launch date of **September 18**.\n\nBy funding this one-time integration fee, the Cosmos Hub establishes a link into mainstream FinTechs and Traditional financial ecosystems through an OCC-regulated provider. Paxos has agreed to **permanently waive all recurring costs for this integration and maintenance fees** ($0/month), ensuring long-term alignment with the Cosmos Hub Treasury and a single, transparent integration costs.\n\nPaxos has over **600+** globally onboarded Institutions and 10+ different Brokerage clients using Paxos for crypto trading infrastructure, including Charles Schwab, Paypal, Venmo, and Mercado Libre.\n\n## 2. Paxos Institutional Infrastructure & Sole Gateway Positioning\nPaxos operates as a premier regulated digital asset infrastructure platform, providing enterprise-grade custody, brokerage, and settlement solutions to top-tier institutional market participants and consumer FinTech platforms.\n\n### Regulatory Rigor & Trust Framework\n- **Tier-1 Regulatory Oversight**: Regulated by the Office of the Comptroller of the Currency (OCC - US National Trust Charter), the Monetary Authority of Singapore (MAS - Major Payment Institution License)\n\n- **Security & Audits**: Fully compliant with SOC I and SOC II Type II standards.\n\n- **Asset Protection**: Customer assets are held strictly in bankruptcy-remote, segregated accounts backed by digital asset insurance coverage.\n\n\n### Regulated Infrastructure Gateway\n\nPaxos functions as a regulated **enterprise infrastructure gateway** connecting digital assets directly to leading retail brokerage and FinTech applications. Across our wallet infrastructure (both our QC and MPC offering) Paxos has over $20B+ in AUC. Integrating ATOM onto Paxos infrastructure provides listing capabilities for the asset across Paxos\u2019s distribution network. Public examples include:\n\n- **Interactive Brokers**: 5.3M+ active brokerage accounts\n\n- **CMC**: 2M Global Users\n\n- **Charles Schwab**: 39M brokerage accounts\n\n\n### Compliance Notice:\n\n**Infrastructure Enablement Model**: This proposal funds the technical enablement, compliance framework, and liquidity gateway on Paxos. Once ATOM is active on Paxos\u2019 core platform, each individual brokerage client retains sole discretion over if, when, and how they choose to turn on ATOM trading and custody for their respective user bases, in accordance with their internal product roadmaps, regional regulatory approvals, and business priorities.\n\nWe plan to update the forum quarterly in the first year regarding progress here.\n\n### Continued Partnership: Institutional Staking Offering\n\nFollowing the initial launch of ATOM custody and trading infrastructure, Paxos will plan to add **Institutional Staking Offering** on the roadmap. Paxos is currently engaged with several partners here to bring:\n\n- **Native Yield Distribution**: Enables enterprise partners and institutional custody clients to participate in Cosmos Hub staking directly through Paxos infrastructure.\n\n- **Recurring Alignment**: Drives long-term staking participation, enhances network security, and establishes a recurring yield mechanism for enterprise capital deployed within the Paxos ecosystem.\n\n## 3. Go-To-Market & Strategic Marketing Execution\nTo maximize institutional visibility and partner uptake upon launch, Cosmos Labs and Paxos will execute a co-coordinated Go-To-Market strategy:\n\n1. **Enterprise Asset 1-Pager and Co-Branded Collateral**: Publication of an institutional-grade ATOM product sheet and asset overview tailored specifically for decision-makers at Paxos enterprise partner firms highlighting ATOM\u2019s utility and economic model.\n\n2. **Official Custody Announcement**: Joint press release led by Cosmos Labs with Paxos\u2019 support and amplification, and formal announcement broadcast across Paxos\u2019 client channels.\n\n3. **Multi-Phase Social Campaign**: A structured marketing campaign covering:\n\n- Phase 1: \u201cPlan to List\u201d infrastructure announcement.\n\n- Phase 2: Official launch date and custody activation.\n\n- Phase 3: Custody milestones and institutional integration updates.\n\n4. **Direct Client Engagement**: Direct outreach by Paxos product and relationship management teams to engage key institutional and brokerage partners on ATOM enablement options.\n\n5. **Additional Opportunities**: Paxos regularly partners with customers, asset issuers, chain ecosystems and more on additional content, speaking events, webinars and more. This partnership opens the opportunity for follow-on content, case studies and more as adoption through Paxos scales.\n\n## 4. Spend Execution & Treasury Settlement Mechanics\nUpon successful passage of this governance proposal, $300,740 USDC will be disbursed from the Cosmos Hub Community Pool to the designated Paxos settlement address.\n\n### Settlement Terms Summary\n- **Amount**: 300,740 USDC (represented as 6-decimal Noble USDC IBC token on the Cosmos Hub).\n\n- **Disbursement Conditions**: Funds released directly to Paxos Trust Company following governance approval.\n\n- **Fee Structure**: One-time payment covering all integration, legal, regulatory clearance, and technical provisioning. Zero recurring monthly maintenance fees.\n\nForum post and discussion: https://forum.cosmos.network/t/atom-integration-listing-on-paxos-regulated-brokerage-infrastructure-proposal-community-treasury-spend/17276",
+    "title": "ATOM Integration & Listing on Paxos\u2019 Regulated Brokerage Infrastructure",
+    "total_deposit": [
+      {
+        "amount": "500000000",
+        "denom": "uatom"
+      }
+    ],
+    "voting_end_time": "2026-09-17T21:09:32.889664560Z",
+    "voting_start_time": "2026-09-10T21:09:32.889664560Z"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-01-26T12:11:48.974847254Z",
+    "expedited": false,
+    "failed_reason": "proposal did not get enough votes to pass",
+    "final_tally_result": {
+      "abstain_count": "35885525740861",
+      "no_count": "68087676971389",
+      "no_with_veto_count": "539453627121",
+      "yes_count": "12437073256238"
+    },
+    "id": "1022",
+    "messages": [
+      {
+        "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+        "amount": [
+          {
+            "amount": "7000000000000",
+            "denom": "uatom"
+          }
+        ],
+        "authority": "cosmos10d07y265gmmuvt4z0w9aw880jnsr700j6zn9kn",
+        "recipient": "cosmos1hj9zuecf0xcjhx8ttcrwd9pmee25xe2plglgcpfk2kjjveet3zyq9nellq"
+      }
+    ],
+    "metadata": "Deploy community pool ATOM into Hydro\u2019s Inflow vault",
+    "proposer": "cosmos1k00qymyetxt36uga8kp88nxyj3hvxfn2v0hgnn",
+    "status": "PROPOSAL_STATUS_REJECTED",
+    "submit_time": "2026-01-12T12:11:48.974847254Z",
+    "summary": "We propose depositing 7M ATOM from the Cosmos Hub community pool into Hydro\u2019s Inflow ATOM vault, where it will be deployed into low-risk DeFi strategies to earn yield.\n\nA portion of the yield will fund development of a zero-fee, Hub-native ATOM LST focused on institutional users, its integration into Hydro\u2019s ATOM Inflow vault and the ongoing expansion of the vault\u2019s strategies, as well as the migration of Hydro\u2019s existing contracts to the Hub. The excess yield will initially be directed toward ATOM burns, with the option to reallocate later if a higher\u2011impact mechanism is proposed by the tokenomics research firm hired by Cosmos Labs.\n\nThe proposal puts a large portion of the idle community pool funds to work. The ATOM \u201cprincipal\u201d will not be sold and the initial deposit can be reduced through total or partial clawbacks if better uses for the capital are identified. Hub governance retains the ability to independently initiate partial or total clawbacks, at any time, without requiring any cooperation from the Hydro committee or any other individual signers. Fund custody will be transferred to the ATOM-Aligned Apps DAO once it\u2019s launched.\n\nFind the full proposal details on the forum here: https://forum.cosmos.network/t/deploy-community-pool-atom-into-hydro-s-inflow-vault/16549",
+    "title": "Deploy community pool ATOM into Hydro\u2019s Inflow vault",
+    "total_deposit": [
+      {
+        "amount": "500000000",
+        "denom": "uatom"
+      }
+    ],
+    "voting_end_time": "2026-01-19T12:11:48.974847254Z",
+    "voting_start_time": "2026-01-12T12:11:48.974847254Z"
+  }
+}
