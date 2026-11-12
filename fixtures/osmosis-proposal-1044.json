@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-09-29T16:32:25.299236811Z",
+    "expedited": false,
+    "failed_reason": "",
+    "final_tally_result": {
+      "abstain_count": "11032249799417",
+      "no_count": "1458634791",
+      "no_with_veto_count": "0",
+      "yes_count": "95330641068011"
+    },
+    "id": "1044",
+    "messages": [
+      {
+        "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+        "amount": [
+          {
+            "amount": "1248380000",
+            "denom": "factory/osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3/alloyed/allBTC"
+          }
+        ],
+        "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+        "recipient": "osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc"
+      }
+    ],
+    "metadata": "Alloyed BTC: Restore backing after the nBTC incident",
+    "proposer": "osmo19w2t4ue7qpdh6022m3yxmxvv3w7jla7u3hfq0r",
+    "status": "PROPOSAL_STATUS_PASSED",
+    "submit_time": "2026-09-15T16:32:25.299236811Z",
+    "summary": "This proposal aims to restore the backing of Alloyed BTC on Osmosis by approving a future software upgrade to seize exploited assets from the attacker address, and by using Osmosis community pool BTC holdings to absorb the remaining unbacked nBTC, leaving Alloyed BTC users whole.\n\n## Background\n\nOn 25 June 2026 the Nomic bridge minted **40.650602 BTC** of nBTC on Osmosis with no Bitcoin behind it \u2014 25 identical IBC transfers in a single Nomic transaction (block 33137470, tx BEE54496B351A018D092779FE6C833238E1CDF965FE9761A572934F37932E028). The mint went undisclosed for 74 days; Nomic's halt on 7 September prompted the check of Bitcoin backing that surfaced it.\n\n**39.839746 BTC** of that counterfeit now sits inside the allBTC transmuter, where it is counted as collateral. Nomic's entire Bitcoin reserve is **0.746 BTC**, and its chain is halted, so none of the nBTC is redeemable.\n\n| allBTC today | BTC |\n| -- | -- |\n| Shares outstanding | 110.570944 |\n| Real collateral (WBTC, cbBTC) | 70.731198 |\n| Unbacked nBTC counted as collateral | 39.839746 |\n| **Backing ratio** | **63.97%** |\n\nThe attacker did not move or sell **22.650608 allBTC** which is now frozen by an emergency upgrade, v31.1.0,  carried out by validators on the 7th September 2026\n\nThe remaining ~18 BTC was extracted from Osmosis and laundered through Tornado Cash. It is not directly recoverable, but we will be pursuing all available avenues to track and return these funds.\n\nThis results in a total shortfall of 39.84 BTC: 22.65 BTC is directly recoverable if governance chooses, and 17.19 BTC requires other intervention.\n\n## Proposed actions\n\n### 1. Intercept the USDC.noble \u2192 allUSDC conversion liquidity\n\nCancel the pending liquidity re-deployment, freeing Community Pool owned BTC to fund the BTC re-peg. Estimated 7.75 BTC.\n\nThis covers the 4.7053 BTC residual gap identified in step 2, leaving roughly 3 BTC of the intercepted amount unused which will be redeployed into the wider liquidity position of the redeployment at 40,000 - 160,000 USDC.\n\n### 2. Community pool spend of allBTC to the Liquidity subDAO\n\nFund the re-peg from the community pool to the Liquidity subDAO (`osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc`).\n\n* Community pool holds **12.4838 allBTC** (\u2248 $988,080)\n* Shortfall after the frozen shares are applied: **17.189137 BTC** (\u2248 $1,360,503)\n* Residual gap: **4.7053 BTC** (\u2248 $372,423), covered by the intercepted BTC from step 1\n\nSpend only the amount needed for the re-peg. Unused funds, including the ~3 BTC of intercepted liquidity not required to close the gap, are re-deployed into the wide liquidity position planned in the USDC.noble \u2192 allUSDC conversion proposal.\n\nThis proposal carries out this spend directly.\n\n### 3. Approve transfer of the exploiter's allBTC to the Liquidity subDAO\n\nAuthorise moving the frozen **22.650608 allBTC** at `osmo1wq76r2mhqsa9yaygghuwyq4wy6dcsgf8vtzltn` to the Liquidity subDAO for use in the re-peg. This covers **56.9%** of the shortfall and is the only recoverable portion of the stolen funds.\n\nThis will require a software upgrade and is not directly executed by this proposal.\n\nThe freeze preserves the asset but does not allocate it; applying it to the shortfall is a governance decision, not an automatic consequence of v31.1.0. \n\nThis is a major decision: it reassigns a user's balance by state change. The forensic record establishes the funds were obtained by exploiting a bridge accounting failure, and that the actor took deliberate steps to launder the proceeds.\n\n### 4. Corrupt and withdraw nBTC, then burn it\n\nSignal that\n\n1. nBTC should be marked as corrupted in the allBTC transmuter\n2. The liquidity subdao should withdraw the corrupted nBTC against the funds provided in steps 2\u20133\n3. Burn the withdrawn nBTC, making allBTC holders whole\n4. Once the balance reaches zero and nBTC has been removed from the alloy, restore allBTC deposit and withdrawal functionality on Osmosis.\n\nThis covers the **39.839746 BTC** of nBTC inside the alloy. The **0.797700 BTC** held outside it (1.96% of supply, \u2248 $63,137) remains Nomic's liability. Nomic's remaining 0.746 BTC reserve is close to the size of this external float, though the chain is halted and no redemption is currently possible.\n\n## References\n\n* [Full forensic report](https://hackmd.io/optjLjTdTKadPNmMc60gJg)\n\n**Forum Post:**[https://forum.osmosis.zone/t/alloyed-btc-restore-backing-after-the-nbtc-incident/4122](https://forum.osmosis.zone/t/alloyed-btc-restore-backing-after-the-nbtc-incident/4122)",
+    "title": "Alloyed BTC: Restore backing after the nBTC incident",
+    "total_deposit": [
+      {
+        "amount": "30000000000",
+        "denom": "uosmo"
+      }
+    ],
+    "voting_end_time": "2026-09-20T16:32:25.299236811Z",
+    "voting_start_time": "2026-09-15T16:32:25.299236811Z"
+  }
+}

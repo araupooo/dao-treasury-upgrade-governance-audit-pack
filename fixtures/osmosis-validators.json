@@ -1,0 +1,182 @@
+[
+  {
+    "operator_address": "osmovaloper1z89utvygweg5l56fsk8ak7t6hh88fd0axx2fya",
+    "moniker": "Inotel",
+    "tokens": "13663797516934",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1z5xyynz9ewuf044uaweswldut34z34z3cwpt7y",
+    "moniker": "Stakely.io",
+    "tokens": "2818782932863",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1r7spsjagrmcfv96w5dxtttajvnxczhcpgfk74g",
+    "moniker": "PRO Delegators",
+    "tokens": "3652256738963",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper196ax4vc0lwpxndu9dyhvca7jhxp70rmcmmarz7",
+    "moniker": "SG-1",
+    "tokens": "2228063798677",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1xvl4vrlh3epl7desfnqydt4tvexl380ue86syc",
+    "moniker": "Mad Scientists",
+    "tokens": "4681954392427",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1xwazl8ftks4gn00y5x3c47auquc62ssuh8af89",
+    "moniker": "jabbey",
+    "tokens": "2881012754894",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1xaz2yf5l0qcta60nlc9v4vzufz2r3swte7y8xd",
+    "moniker": "01node",
+    "tokens": "4128908958089",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper18kxyn3dpmwnmctzkgckfcgp7a4nzss0lq2qpk9",
+    "moniker": "bitszn | valopers.com",
+    "tokens": "3267564541008",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1gp957czryfgyvxwn3tfnyy2f0t9g2p4phpkatp",
+    "moniker": "polkachu.com",
+    "tokens": "6749669431238",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1gy0nyn2hscxxayj2pdyu8axmfvv75nnvhc079s",
+    "moniker": "Provalidator",
+    "tokens": "2715831637219",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1glmy88g0uf6vmw29pyxu3yq0pxpjqtzqr5e57n",
+    "moniker": " Lavender.Five Nodes \ud83d\udc1d",
+    "tokens": "5341260779765",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper12rzd5qr2wmpseypvkjl0spusts0eruw2g35lkn",
+    "moniker": "Stakecito Labs",
+    "tokens": "3227580259370",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1tf7wjthwt9mgywqvjdkj974rp5awzzm43ddhlp",
+    "moniker": "Booga Beras",
+    "tokens": "1019905648710",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1wlagucxdxvsmvj6330864x8q3vxz4x025rraa6",
+    "moniker": "DSRV",
+    "tokens": "3279695144171",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper10w06wvmdd4xn7hr76gzrv570f7q5uweem5jcd7",
+    "moniker": "The_Cybernetics",
+    "tokens": "9042984245943",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper10jm8fvdyqlj78w0j5nawc76wsn4pqmdxgzgh4c",
+    "moniker": "NosNode\ud83d\udd2e",
+    "tokens": "3027544274726",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper130r77dtdgz3yjyyskhrr3j2c90aqezugkhr3rs",
+    "moniker": "Keplr",
+    "tokens": "20998786386796",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1nna7k5lywn99cd63elcfqm6p8c5c4qcu6ex2gp",
+    "moniker": "IcyCRO \ud83e\uddca",
+    "tokens": "3747014000704",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper15czt5nhlnvayqq37xun9s9yus0d6y26d5jws45",
+    "moniker": "Binary Builders",
+    "tokens": "2798959989954",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper144xwxcrlntp4wjadhrylzc6p3vdzscye6t3f76",
+    "moniker": "DKCMC",
+    "tokens": "2412604756769",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper146mj09yzu3mvz7pmy4dvs4z9wr2mst7rq8p8gy",
+    "moniker": "Interop",
+    "tokens": "14326205368091",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1h2c47vd943scjlfum6yc5frvu2l279lwjep5d6",
+    "moniker": "Solva (CryptoCrew)",
+    "tokens": "6310761198895",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1czsuul2n7252wcrvk9dvjcjg2qn2qcdd9ue74s",
+    "moniker": "HighStakes.ch | Daily Airdrops",
+    "tokens": "5614515788532",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1e9ucjn5fjmetky5wezzcsccp7hqcwzrrdulz7n",
+    "moniker": "Allnodes",
+    "tokens": "3066515432985",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1e8238v24qccht9mqc2w0r4luq462yxttfpaeam",
+    "moniker": "POSTHUMAN \ud83e\uddec StakeDrop",
+    "tokens": "5072338005664",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1eh5mwu044gd5ntkkc2xgfg8247mgc56f4dlt9h",
+    "moniker": "BouBouNode",
+    "tokens": "2042449716618",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper16n0t7lmy4wnhjytzkncjdkxrsu9yfjm3ex7hxr",
+    "moniker": "Golden Ratio Staking",
+    "tokens": "3987020209982",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1u5v0m74mql5nzfx2yh43s2tke4mvzghr6m2n5t",
+    "moniker": "ECO Stake \ud83c\udf31 | REStake.app",
+    "tokens": "6620151405950",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1u6jr0pztvsjpvx77rfzmtw49xwzu9kas05lk04",
+    "moniker": "Crosnest",
+    "tokens": "5694677204548",
+    "status": "BOND_STATUS_BONDED"
+  },
+  {
+    "operator_address": "osmovaloper1lmxrexaxuc7ealq4wqdgzrczajhhrenrdlhxha",
+    "moniker": "Chiter in Cosmos \u269b",
+    "tokens": "861283789662",
+    "status": "BOND_STATUS_BONDED"
+  }
+]

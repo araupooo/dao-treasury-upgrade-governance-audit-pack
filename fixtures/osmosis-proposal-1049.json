@@ -1,0 +1,57 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-10-17T17:04:51.119106028Z",
+    "expedited": false,
+    "failed_reason": "",
+    "final_tally_result": {
+      "abstain_count": "9687244990273",
+      "no_count": "2504416838",
+      "no_with_veto_count": "835260000",
+      "yes_count": "81339834274461"
+    },
+    "id": "1049",
+    "messages": [
+      {
+        "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+        "amount": [
+          {
+            "amount": "160183618723",
+            "denom": "factory/osmo159f7axyc32cyfgzx0gs9r98jwpgutj5qz4ns97xvu7nw3xzpavzsg2uxr3/locust-vault-1922"
+          },
+          {
+            "amount": "3569321921678",
+            "denom": "factory/osmo16s3sxs5886p42kteunp6370pken2n5ukzszz0trkr39epqtawn2qk4r9l5/lsd-vault-1252"
+          },
+          {
+            "amount": "86142455828",
+            "denom": "factory/osmo1cztgw4e467vjljd0s2flz8asu3x3wg9q0ttga9t6kzmpyaauxxrs2gjshq/locust-vault-1923"
+          },
+          {
+            "amount": "1235074629011",
+            "denom": "factory/osmo1rtflmlsu053kdfuh8qz0avly63gj5tmgu5naxlvcngttdujmapcslzgwq4/locust-vault-2285"
+          },
+          {
+            "amount": "8530121655",
+            "denom": "factory/osmo1xugxhp2knsyvxelghc340gq886kdwgv36sr0afwu6egeds3aafgsy4n2g4/locust-vault-1982"
+          }
+        ],
+        "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+        "recipient": "osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc"
+      }
+    ],
+    "metadata": "Not Used",
+    "proposer": "osmo19w2t4ue7qpdh6022m3yxmxvv3w7jla7u3hfq0r",
+    "status": "PROPOSAL_STATUS_PASSED",
+    "submit_time": "2026-10-03T17:04:51.119106028Z",
+    "summary": "Margined is winding down its managed liquidity offering on Osmosis. This proposal withdraws the community pool's remaining Margined vault positions in OSMO liquid staking token pairs and ETH/BTC. The recovered OSMO, about 8.1 million OSMO plus around 1.27 million more once the bOSMO has been redeemed, is burned. The ETH and BTC are returned to the community pool.\n\n## Background\n\nThe community pool built up managed positions with Margined through a series of deployments:\n\n* **stOSMO/OSMO ([Pool 1252](https://app.osmosis.zone/pool/1252)):** trialled in [Proposal 798](https://daodao.zone/dao/osmosis/proposals/798), scaled through [Proposal 843](https://daodao.zone/dao/osmosis/proposals/843), [Proposal 890](https://daodao.zone/dao/osmosis/proposals/890) and [Proposal 981](https://daodao.zone/dao/osmosis/proposals/981).\n* **bOSMO/OSMO ([Pool 1922](https://app.osmosis.zone/pool/1922)) and ampOSMO/OSMO ([Pool 1923](https://app.osmosis.zone/pool/1923)):** established in [Proposal 846](https://daodao.zone/dao/osmosis/proposals/846) and [Proposal 847](https://daodao.zone/dao/osmosis/proposals/847), expanded when the White Whale positions were migrated in [Proposal 911](https://daodao.zone/dao/osmosis/proposals/911).\n* **ETH/BTC ([Pool 1982](https://app.osmosis.zone/pool/1982)):** deployed in [Proposal 887](https://daodao.zone/dao/osmosis/proposals/887).\n\n## Current positions\n\nThe community pool holds 99.9 to 100% of every vault below.\n\n| Pool | Pair | Underlying | ~Value |\n| -- | -- | -- | -- |\n| [1252](https://app.osmosis.zone/pool/1252) | stOSMO/OSMO | 4,729,719 OSMO + 188,091 stOSMO | ~$170,000 |\n| [1923](https://app.osmosis.zone/pool/1923) | ampOSMO/OSMO | 2,332,760 OSMO + 70 ampOSMO | ~$79,000 |\n| [1922](https://app.osmosis.zone/pool/1922) | bOSMO/OSMO | 1,062,951 OSMO + 1,137,395 bOSMO | ~$79,000 |\n| [1982](https://app.osmosis.zone/pool/1982) | ETH/BTC | 0.83 ETH + 0.16 BTC | ~$15,000 |\n\nCombined recoverable value is approximately **$342,000**, around 80% of it OSMO: about 8.1 million OSMO directly, plus around 1.27 million OSMO once the bOSMO has been redeemed. As housekeeping, the same action formally closes the collapsed yield-OSMO vault on [Pool 2285](https://app.osmosis.zone/pool/2285), which holds only dust.\n\n### stOSMO\n\nPool 1252 is the main stOSMO/OSMO market on Osmosis. Between this vault and a separate static position in the same pool, the community pool supplies about 96% of the OSMO side of that market: about 4.7 million OSMO in the vault and 8 million OSMO in the static position.\n\nThe static position was placed below market as a backstop for stOSMO used as collateral in lending markets, so that liquidations could always clear. Those markets are no longer active on Osmosis: Mars has set borrowing limits on every asset to effectively zero, Levana's stOSMO market holds no liquidity, and the remaining stOSMO posted as CDT collateral is worth a few dollars.\n\nUnlike bOSMO and ampOSMO, stOSMO keeps an independent market once both are gone. Other liquidity providers in Pool 1252 hold about 68,000 stOSMO and 457,000 OSMO, and the [Pool 833](https://app.osmosis.zone/pool/833) stableswap holds about 165,000 stOSMO and 147,000 OSMO. Together, that leaves roughly 600,000 OSMO (about $20,000) on the buy side for stOSMO holders.\n\nOutside pools, about 1,375 accounts hold around 781,000 stOSMO on Osmosis (about $41,000), 23 of them more than 10,000 each. Larger holders exiting quickly will find thinner markets than today. Stride has also [proposed an orderly wind-down](https://x.com/stride_zone/status/2104944449503813922) of its chain. Under that plan, stOSMO can be [redeemed on Stride](https://app.stride.zone/?chain=OSMO) as normal until 12 October; redemptions then pause while the backing unbonds, and resume on Osmosis around 20 November. Stride's redemption rate is currently about 1.463 OSMO per stOSMO, against roughly 1.42 in the pools today.\n\n### bOSMO\n\nThe community pool's Pool 1922 vault holds roughly 1,137,000 bOSMO, about 97% of all bOSMO in existence. It is also the only liquidity for bOSMO on Osmosis: it supplies all of Pool 1922's liquidity, and the other bOSMO pools are now effectively empty.\n\nOutside the vault, roughly 1,300 wallets hold about 33,500 bOSMO between them, worth around $1,300, with the largest holding worth about $220. A further 6,900 bOSMO or so sits in contracts, including Backbone's own.\n\nWithdrawing the vault therefore concludes the bOSMO/OSMO market on Osmosis rather than reducing its depth. Holders can still redeem through [Backbone's unbonding queue](https://app.backbonelabs.io). Redemption takes up to about 17 days: a 3-day batch followed by 14 days of unbonding. The community pool's own bOSMO is redeemed the same way, since selling it would mean selling into its own liquidity.\n\nHalf of the OSMO staked by the [Backbone staking contract](https://www.mintscan.io/osmosis/address/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv) sits with [NFTSwitch](https://www.mintscan.io/osmosis/validators/osmovaloper1u2wsa88eh738mk35a3cncgu7lc6cqf74jdl50x), and the other half with [Backbone's own validator](https://www.mintscan.io/osmosis/validators/osmovaloper135p8cjwa3hnnnksjxchda0a6339z9zm7cudyxn), which is jailed and outside the active set, earning no staking rewards.\n\n### ampOSMO\n\nThe community pool's Pool 1923 vault is the only liquidity for ampOSMO on Osmosis. It holds about 2.33 million OSMO against 70 ampOSMO, a standing bid many times larger than all ampOSMO in existence (28,304 ampOSMO, worth about 38,000 OSMO or $1,300). Its withdrawal also concludes the ampOSMO/OSMO market.\n\nMost ampOSMO, about 88%, sits in Eris vote-escrow, but every lock there has now ended, so its holders can withdraw it at any time. Together with wallet balances, about 27,100 ampOSMO (around $1,200) is held outside the vault.\n\nHolders can redeem through [Eris's unbonding queue](https://www.erisprotocol.com/osmosis/amplifier/OSMO). Redemption takes up to about 16 days: a 2-day batch followed by 14 days of unbonding.\n\nAbout 90% of the OSMO staked by the [Eris staking contract](https://www.mintscan.io/osmosis/address/osmo1dv8wz09tckslr2wy5z86r46dxvegylhpt97r9yd6qc3kyc6tv42qa89dr9) sits with two jailed validators outside the active set, [Backbone's](https://www.mintscan.io/osmosis/validators/osmovaloper135p8cjwa3hnnnksjxchda0a6339z9zm7cudyxn) and [one that has shut down](https://www.mintscan.io/osmosis/validators/osmovaloper1l7hln0l79erqaw6jdfdwx0hkfmj3dp27gr77ja), earning no staking rewards.\n\n## Rationale\n\n* **Manager wind-down.** Margined is discontinuing its managed liquidity products. Leaving community pool positions in unmaintained vault contracts carries smart contract and operational risk with no rebalancing benefit.\n* **Consolidation.** The OSMO held in these positions has been out of circulation since it was allocated from the community pool; burning it on recovery makes that permanent. The ETH and BTC return to the community pool, where governance can redeploy them on its own terms.\n\n## Proposed actions\n\n1. Transfer the community pool's vault share tokens for each position above to the [Osmosis Liquidity SubDAO](https://daodao.zone/dao/osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc/home) via a single community pool spend.\n2. Unwind each vault position and recover the underlying assets.\n3. Convert the liquid staking tokens to OSMO: by redemption or swapping on a best-effort basis.\n4. Burn all recovered OSMO, about 9.4 million OSMO in total, by sending it to the null address `osmo1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqmcn030`.\n5. Return the ETH and BTC to the Osmosis community pool.\n\nExecution via the Liquidity SubDAO 4/6 multisig, as in prior multi-stage liquidity operations.\n\n## Risks\n\n* **Withdrawal fees.** The vault deployments carried a performance fee charged on accrued profit when a position is unwound, so the amount recovered will be slightly below the gross figures above.\n* **LST redemption.** The recovered bOSMO is redeemed through Backbone's unbonding queue on no forced timeline, and the stOSMO and ampOSMO are redeemed or swapped best-effort against available depth; nothing is force-sold.\n* **LST liquidity.** This proposal removes the only liquidity for bOSMO and ampOSMO on Osmosis and most of the liquidity for stOSMO. Around $1,300 of user-held bOSMO and $1,200 of user-held ampOSMO are affected; those holders can still redeem through the issuers at the full redemption rate. stOSMO keeps independent liquidity of roughly $20,000 on the OSMO side, plus redemption through Stride's wind-down process.\n* **Multisig execution.** Standard Liquidity SubDAO 4/6 intermediary risk.\n\n**Forum Post:** [https://forum.osmosis.zone/t/withdraw-margined-managed-osmo-lst-and-eth-btc-liquidity/4142](https://forum.osmosis.zone/t/withdraw-margined-managed-osmo-lst-and-eth-btc-liquidity/4142)",
+    "title": "Withdraw Margined-Managed OSMO LST and ETH/BTC Liquidity",
+    "total_deposit": [
+      {
+        "amount": "30000000000",
+        "denom": "uosmo"
+      }
+    ],
+    "voting_end_time": "2026-10-08T17:04:51.119106028Z",
+    "voting_start_time": "2026-10-03T17:04:51.119106028Z"
+  }
+}

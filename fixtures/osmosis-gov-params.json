@@ -1,0 +1,28 @@
+{
+  "burn_proposal_deposit_prevote": false,
+  "burn_vote_quorum": false,
+  "burn_vote_veto": true,
+  "expedited_min_deposit": [
+    {
+      "amount": "100000000000",
+      "denom": "uosmo"
+    }
+  ],
+  "expedited_threshold": "0.800000000000000000",
+  "expedited_voting_period": "86400s",
+  "max_deposit_period": "1209600s",
+  "min_deposit": [
+    {
+      "amount": "30000000000",
+      "denom": "uosmo"
+    }
+  ],
+  "min_deposit_ratio": "0.010000000000000000",
+  "min_initial_deposit_ratio": "0.250000000000000000",
+  "proposal_cancel_dest": "",
+  "proposal_cancel_ratio": "1",
+  "quorum": "0.300000000000000000",
+  "threshold": "0.500000000000000000",
+  "veto_threshold": "0.334000000000000000",
+  "voting_period": "432000s"
+}

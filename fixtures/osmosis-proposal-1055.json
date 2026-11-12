@@ -1,0 +1,57 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-11-06T10:20:03.273326818Z",
+    "expedited": false,
+    "failed_reason": "",
+    "final_tally_result": {
+      "abstain_count": "17785219499992",
+      "no_count": "8540000000",
+      "no_with_veto_count": "1353000000",
+      "yes_count": "92144119379388"
+    },
+    "id": "1055",
+    "messages": [
+      {
+        "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+        "amount": [
+          {
+            "amount": "726327963777610814955",
+            "denom": "ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373"
+          },
+          {
+            "amount": "29854667429",
+            "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+          },
+          {
+            "amount": "1034070732591381362",
+            "denom": "ibc/2F21E6D4271DE3F561F20A02CD541DAF7405B1E9CB3B9B07E3C2AC7D8A4338A5"
+          },
+          {
+            "amount": "2020588012",
+            "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+          },
+          {
+            "amount": "11871647424",
+            "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
+          }
+        ],
+        "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+        "recipient": "osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc"
+      }
+    ],
+    "metadata": "Not Used",
+    "proposer": "osmo19w2t4ue7qpdh6022m3yxmxvv3w7jla7u3hfq0r",
+    "status": "PROPOSAL_STATUS_PASSED",
+    "submit_time": "2026-10-23T10:20:03.273326818Z",
+    "summary": "This proposal rebalances five balances in the Osmosis community pool into the reserve assets Osmosis deploys as liquidity: BTC, ETH and USDC. The assets for conversion are ATOM, wstETH, USDY, USDC.eth.axl and USDC via Noble.\n\n## Background\n\n### ATOM\n\nThe community pool holds about 29,850 ATOM, its largest holding outside the reserve assets. Held idle, it earns nothing. This proposal converts it to BTC, moving the reserve toward a more balanced mix of BTC and USDC.\n\n### wstETH\n\nwstETH on Osmosis is bridged through the canonical interchain wstETH contracts on Neutron. As part of Neutron's transition to long-term support ([Neutron announcement](https://x.com/neutron_org/status/2033647708234547605)), Hadron Labs maintained these contracts until 30 June 2026, and their stability is not guaranteed beyond that date. Converting the community pool's wstETH to ETH keeps the same exposure without depending on those contracts.\n\n### USDY\n\nOndo has announced that it stopped minting USDY on Noble on 8 September 2026 ([Ondo announcement](https://x.com/Ondo/status/2096025809358148023)). USDY on Osmosis is bridged from Noble, so it is affected by the same wind-down. Holders of less than 1,000 USDY can exit through liquidity on Osmosis until 7 December 2026. The community pool holds about 726 USDY, so it falls into this group and must convert before that date.\n\n### USDC variants\n\n[Proposal 1039](https://daodao.zone/dao/osmosis/proposals/1039) established Alloyed USDC as the canonical USDC on Osmosis, and the community pool's main USDC balance has since been migrated. Smaller balances of USDC.eth.axl and USDC via Noble remain. Both are constituents of Alloyed USDC and convert into it 1:1 with no slippage, fee or price impact.\n\nUSDC via Noble no longer accrues. USDC.eth.axl continues to arrive from ProtoRev, which lists it as a base denomination and sends its arbitrage profits to the community pool in the denomination they were earned in. This proposal converts what has accumulated to date.\n\n## Proposal\n\n### Convert community pool balances\n\n| Asset | Amount | ~Value | Converted to | Method |\n| -- | -- | -- | -- | -- |\n| ATOM | 29,854.67 | $53,500 | BTC | Sold via limit orders for USDC, then converted to BTC |\n| wstETH | 1.034 | $3,060 | ETH | Sold via limit orders, then converted to ETH |\n| USDC.eth.axl | 11,871.65 | $11,872 | USDC | Converted 1:1 to Alloyed USDC |\n| USDC via Noble | 2,020.59 | $2,021 | USDC | Converted 1:1 to Alloyed USDC |\n| USDY | 726.33 | $831 | USDC | Swapped to Alloyed USDC on Osmosis |\n\nThe ATOM and USDC.eth.axl amounts grow slightly each day from ProtoRev arbitrage revenue and are shown as at submission.\n\nThese balances are spent to the [Osmosis Liquidity SubDAO](https://daodao.zone/dao/osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc/home), which handles time-sensitive, multi-step operations that governance cannot execute directly. The SubDAO converts each balance as described above and returns the proceeds to the community pool as BTC, ETH and USDC.\n\nThe ATOM and wstETH are sold through limit orders on Osmosis rather than swapped in one transaction. The SubDAO may set and adjust prices as the market moves and convert the proceeds to BTC and ETH through swaps or limit orders.\n\n**Forum Post:** [https://forum.osmosis.zone/t/rebalance-community-pool-reserves-into-btc-eth-and-usdc/4162](https://forum.osmosis.zone/t/rebalance-community-pool-reserves-into-btc-eth-and-usdc/4162)",
+    "title": "Rebalance Community Pool Reserves into BTC, ETH and USDC",
+    "total_deposit": [
+      {
+        "amount": "30000000000",
+        "denom": "uosmo"
+      }
+    ],
+    "voting_end_time": "2026-10-28T10:20:03.273326818Z",
+    "voting_start_time": "2026-10-23T10:20:03.273326818Z"
+  }
+}

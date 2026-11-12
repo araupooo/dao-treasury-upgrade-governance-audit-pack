@@ -1,0 +1,29 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-11-23T15:34:57.846009494Z",
+    "expedited": false,
+    "failed_reason": "",
+    "final_tally_result": {
+      "abstain_count": "0",
+      "no_count": "0",
+      "no_with_veto_count": "0",
+      "yes_count": "0"
+    },
+    "id": "1066",
+    "messages": [],
+    "metadata": "Not Used",
+    "proposer": "osmo19w2t4ue7qpdh6022m3yxmxvv3w7jla7u3hfq0r",
+    "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+    "submit_time": "2026-11-09T15:34:57.846009494Z",
+    "summary": "This proposal proposes raising the network minimum validator commission from 5% to 10% in a future software upgrade, and bringing every validator currently below 10% up to that level at the upgrade height.\n\n## Background\n\nThe network minimum validator commission is 5%. Most validators charge exactly that: 27 of the 30 active validators are below 10%, holding about 94% of bonded stake, and the stake-weighted average commission is about 5.5%.\n\n## Rationale\n\n* **Sustainable validator revenue.** A higher floor lets validators fund secure, reliable infrastructure from commission.\n* **Competition on quality.** With a higher floor, validators no longer compete as much on commission, so delegators can choose on reliability and governance participation instead.\n\n## Why this needs a software upgrade\n\nChanging the minimum commission parameter on its own does not affect validators already below it: the minimum is only checked when a validator is created or edits its commission. A validator can also only change its commission by a limited amount each day, and one active validator has a maximum commission below 10%. A parameter change alone would leave most validators at 5%, and unable to edit their commission at all until they reached the new floor.\n\n## Proposed change\n\nThe upgrade would:\n\n* set the minimum commission parameter to 10%;\n* raise any validator below 10% to 10%;\n* raise any validator whose maximum commission is below 10% to a maximum of 10%.\n\nValidators already at or above 10% are unaffected.\n\n## Impact\n\n* **Delegators** to validators currently below 10% pay a higher commission from the upgrade height. At 5% today, the share of staking rewards a delegator keeps falls from 95% to 90%.\n* **Validators** below 10% move to 10% without needing to submit any transaction.\n\n## About this proposal\n\nThis is a signalling proposal. If it passes, the change is included in a future software upgrade, which will be proposed separately with its own upgrade height.\n\n**Forum Post:** [https://forum.osmosis.zone/t/signal-a-10-minimum-validator-commission/4189](https://forum.osmosis.zone/t/signal-a-10-minimum-validator-commission/4189)",
+    "title": "Signal a 10% Minimum Validator Commission",
+    "total_deposit": [
+      {
+        "amount": "30000000000",
+        "denom": "uosmo"
+      }
+    ],
+    "voting_end_time": "2026-11-14T15:34:57.846009494Z",
+    "voting_start_time": "2026-11-09T15:34:57.846009494Z"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-09-24T15:38:29.347293835Z",
+    "expedited": false,
+    "failed_reason": "",
+    "final_tally_result": {
+      "abstain_count": "12990230733686",
+      "no_count": "9867876762",
+      "no_with_veto_count": "85545941",
+      "yes_count": "93444884663680"
+    },
+    "id": "1042",
+    "messages": [
+      {
+        "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+        "amount": [
+          {
+            "amount": "504330487523",
+            "denom": "factory/osmo15gqhlr4tem7s3qanhqwy28mm2maxrpha9acelldr4m73ujv6lclqg3s37j/locust-vault-2700"
+          },
+          {
+            "amount": "95286098774",
+            "denom": "factory/osmo193kjx80ag4tck2enuxcprxnrcusemmh5mun5k87c96d7swz6y2dqf39rxe/locust-vault-1943"
+          },
+          {
+            "amount": "879150712128",
+            "denom": "factory/osmo1a7vgqphmdsahksqjaegtgjr5086nz5vl6frjay5rl3jucjdqmfkqlh47wc/locust-vault-2970"
+          },
+          {
+            "amount": "692740101787",
+            "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+          }
+        ],
+        "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+        "recipient": "osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc"
+      },
+      {
+        "@type": "/osmosis.concentratedliquidity.v1beta1.MsgTransferPositions",
+        "new_owner": "osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc",
+        "position_ids": [
+          "9497608",
+          "9903577"
+        ],
+        "sender": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp"
+      }
+    ],
+    "metadata": "Not Used",
+    "proposer": "osmo19w2t4ue7qpdh6022m3yxmxvv3w7jla7u3hfq0r",
+    "status": "PROPOSAL_STATUS_PASSED",
+    "submit_time": "2026-09-10T15:38:29.347293835Z",
+    "summary": "This proposal moves every USDC position that Osmosis governance controls from USDC.noble to Alloyed USDC, the canonical USDC on Osmosis under [Proposal 1039](https://daodao.zone/dao/osmosis/proposals/1039). That covers the community pool's USDC balance, its USDC-quoted liquidity positions (three Margined vaults and two static positions), and the BTC/USDC position recovered from the Magma vault under [Proposal 1029](https://daodao.zone/dao/osmosis/proposals/1029). \n# Background \n[Proposal 1039](https://daodao.zone/dao/osmosis/proposals/1039) recognised Alloyed USDC as the canonical USDC on Osmosis and repointed every protocol parameter that named a USDC denom. This proposal completes that transition for the balances and positions the DAO itself controls: leaving them in a single-issuance-route variant while asking users and integrators to treat the alloy as canonical would be inconsistent. \n\nAlloyed USDC is an alloy of USDC.noble, USDC.eth.axl and USDC.inj. Conversion between a constituent and the alloy is a 1:1 swap with no slippage, fee or price impact. Because every USDC step here is a transmute, the migration itself carries no market risk. \n\n# What moves \n### **Community pool USDC (~$692k)** \nThe entire USDC via Noble balance, about **692,450 USDC**, converted 1:1 to Alloyed USDC. [Proposal 1039](https://daodao.zone/dao/osmosis/proposals/1039) removed USDC.noble from the taker-fee community pool whitelist, so ongoing fee revenue already accrues to the community pool as Alloyed USDC.  \n\nSome of this is put to work funding the replacement positions below, with the majority left liquid. \n### **USDC-quoted Margined vaults (~$196k)** \n| Pool | Pair | Deployed via | Underlying | ~USD | \n| -- | -- | -- | -- | -- | \n| 1943 | BTC/USDC | [882](<https://daodao.zone/dao/osmosis/proposals/882>) | 1.91 BTC + 35,685 USDC | ~$185k | \n| 2700 | DOGE/USDC | [900](<https://daodao.zone/dao/osmosis/proposals/900>) | 69,849 DOGE + 1,454 USDC | ~$7k | \n| 2970 | XRP/USDC | [936](<https://daodao.zone/dao/osmosis/proposals/936>) | 6,617 XRP + 397 USDC | ~$4k | \n\nMargined is winding down managed liquidity on Osmosis; its remaining vaults that are not USDC-quoted are handled in a separate proposal. \n\n### **USDC-quoted static positions (~$670k)** \n| Pool | Position | Pair | Deployed via | Price range | Underlying | Fees uncollected | Total value | \n| -- | -- | -- | -- | -- | -- | -- | -- | \n| 2321 | 9497608 | BTC/USDC (0.1%) | [859] (<https://daodao.zone/dao/osmosis/proposals/859>)/[860](<https://daodao.zone/dao/osmosis/proposals/860>) | $72,500 to $108,750 per BTC | 4.34 BTC + 76,841 USDC | 0.46 BTC + 41,496 USDC | ~$492k | \n| 1880 | 9903577 | USDT/USDC | [869](<https://daodao.zone/dao/osmosis/proposals/869>) | 0.9970 to 1.0030 USDC per USDT | 147,234 USDT + 28,491 USDC | 1,116 USDT + 1,076 USDC | ~$178k | \n\nTogether, the two static positions hold about **$669,000**, including roughly $79,500 in uncollected fees collected on withdrawal. Both are in range and working; they move only because their quote asset is being retired. \n\n### **Magma proceeds at the Liquidity subDAO (~$297k)** \n[Proposal 1029](https://daodao.zone/dao/osmosis/proposals/1029) directed the subDAO to withdraw the community pool's Magma vault, redeploy into a wide static position on Pool 1943 and return it. The withdrawal and redeployment are done ($40,000 to $160,000 band: 1.19 BTC + 86,776 USDC, plus 1.51 BTC excess, together about $297k). This proposal amends that mandate so the subDAO migrates it with the rest instead of returning it as-is. \n# Where it goes \n* **The strategic BTC/USDC position keeps its band.** The [Pool 2321](https://app.osmosis.zone/pool/2321) position and its fees are recreated on [Pool 3504](https://app.osmosis.zone/pool/3504) (BTC/USDC, 0.1%) at the same $72,500 to $108,750 range, with the USDC side transmuted first. \n* **DOGE and XRP are disposed of for USDC**. These positions were initial bootstrapping positions for trading and have served their purpose. \n* **USDT/USDC** moves to [Pool 3507](https://app.osmosis.zone/pool/3507) (USDT/USDC, 0.01%) at the same 0.9970 to 1.0030 range, keeping the stablecoin contingency liquidity [Proposal 869](https://daodao.zone/dao/osmosis/proposals/869) established. \n* **The remaining BTC/USDC liquidity consolidates into the wider ex-Magma position.** The Margined 1943 vault contents, the Magma-derived position and its excess BTC, the proceeds of the XRP and DOGE vaults, and converted USDC from the community pool balance are combined into a protocol-owned static position on [Pool 3502](https://app.osmosis.zone/pool/3502) (BTC/USDC, 0.01%) at the $40,000 to $160,000 band [Proposal 1029](https://daodao.zone/dao/osmosis/proposals/1029) already uses. \n* **The community pool's existing loose BTC is out of scope.** About 12.47 BTC (~$987k) sits unpaired in the community pool today. It is not USDC-quoted, so this proposal leaves it where it is. \n* **Positions created under this mandate**, and any residual assets, are returned to the community pool once deployed. \n# Post-Proposal state \nApproximate sizes at BTC ~$79,100. Concentrated liquidity sets the deposit ratio from the pool price at the time of deposit, so the exact BTC/USDC split of each position, and therefore how much USDC is left liquid, shifts with the BTC price at execution. \n| Pool | Band | Fed by | Approximate Size | Total value | \n| -- | -- | -- | -- | -- | \n| BTC/USDC 0.1% 3504 | $72,500 to $108,750 | Current Static BTC/USDC.noble position | 4.80 BTC + 110k USDC | ~$490k | \n| USDT/USDC 0.01% 3507 | 0.997 to 1.003 | Current Static USDT/USDC.noble position | 148k USDT + 30k USDC | ~$178k | \n| BTC/USDC 0.01% 3502 | $40,000 to $160,000 | Margined withdrawals, Magma withdrawals, XRP and DOGE proceeds, community pool USDC according to ratio | 4.62 BTC + 355k USDC | ~$721k | \n| Liquid Alloyed USDC | N/A | Remainder of the converted community pool balance | ~479k USDC | ~$479k | \n\n The community pool's 12.47 loose BTC (~$987k) is unchanged by this proposal and is not counted above. \n# Execution \nOnchain in this proposal: a community pool spend transferring the USDC via Noble balance, the two static positions and the three vault share tokens to the [Osmosis Liquidity subDAO](https://daodao.zone/dao/osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc/home). The subDAO then executes the unwinds, transmutes, swaps, redeposits and returns under this mandate, including the amended handling of the Proposal 1029 position, via its 4/6 multisig. \n\nThe replacement pools are newly created and thinly seeded, so their pool prices can sit away from the wider market. The subDAO aligns each destination pool's price to market immediately before depositing into it, so that new liquidity is not created at a stale price. \n\n**Forum Post:** [https://forum.osmosis.zone/t/migrate-protocol-usdc-to-alloyed-usdc/4119](https://forum.osmosis.zone/t/migrate-protocol-usdc-to-alloyed-usdc/4119)",
+    "title": "Migrate Protocol USDC to Alloyed USDC",
+    "total_deposit": [
+      {
+        "amount": "30000000000",
+        "denom": "uosmo"
+      }
+    ],
+    "voting_end_time": "2026-09-15T15:38:29.347293835Z",
+    "voting_start_time": "2026-09-10T15:38:29.347293835Z"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-11-13T14:26:31.587674202Z",
+    "expedited": false,
+    "failed_reason": "",
+    "final_tally_result": {
+      "abstain_count": "9140386888817",
+      "no_count": "18241966240",
+      "no_with_veto_count": "1043600000",
+      "yes_count": "93868180322994"
+    },
+    "id": "1057",
+    "messages": [
+      {
+        "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+        "amount": [
+          {
+            "amount": "55500000000000",
+            "denom": "uosmo"
+          }
+        ],
+        "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+        "recipient": "osmo1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqmcn030"
+      }
+    ],
+    "metadata": "Not Used",
+    "proposer": "osmo19w2t4ue7qpdh6022m3yxmxvv3w7jla7u3hfq0r",
+    "status": "PROPOSAL_STATUS_PASSED",
+    "submit_time": "2026-10-30T14:26:31.587674202Z",
+    "summary": "This proposal burns 55.5 million OSMO from the Osmosis community pool by sending it to the null address, bringing the total OSMO burned to over 100 million.\n\n## Background\n\nSince [Proposal 957](https://daodao.zone/dao/osmosis/proposals/957) and [Proposal 967](https://daodao.zone/dao/osmosis/proposals/967), most of each day's OSMO issuance was directed to the community pool rather than distributed. Those proposals described this as a soft burn: the OSMO is out of circulation but still exists, and can be spent by a future proposal. They noted that governance could make the burn permanent by sending the balance to the null address.\n\nThe community pool now holds about 119.3 million OSMO and no longer receives newly issued OSMO as inflation is zero. About 44.4 million OSMO has been burned to date by sending it to the null address.\n\n## Rationale\n\n* **Makes the soft burn permanent.** The community pool OSMO does not circulate, but while it exists, any future proposal could release it. Burning 55.5 million OSMO removes nearly half of that overhang from OSMO's supply for good.\n* **Brings total burned past 100 million.** Together with the OSMO already sent to the null address, this burn takes the total OSMO burned to over 100 million.\n* **Matches supply to reality.** OSMO held in the community pool as a soft burn is still counted in total supply. Burning it brings reported supply more in line with the OSMO that is actually available.\n\n## Proposal\n\nSend 55,500,000 OSMO from the community pool to the null address `osmo1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqmcn030`. At current prices, this is about $3.2 million. The valuation is notional, as liquidity is unable to fulfil the full value at the spot price.\n\n## Impact\n\n* OSMO supply falls by 55.5 million, about 7% of the current supply of about 794 million.\n* Total OSMO burned rises to over 100 million.\n* The community pool retains about 63.8 million OSMO and all of its other assets.\n\n**Forum Post:** [https://forum.osmosis.zone/t/burn-community-pool-osmo-to-reach-100-million-burned/4183](https://forum.osmosis.zone/t/burn-community-pool-osmo-to-reach-100-million-burned/4183)",
+    "title": "Burn Community Pool OSMO to Reach 100 Million Burned",
+    "total_deposit": [
+      {
+        "amount": "30000000000",
+        "denom": "uosmo"
+      }
+    ],
+    "voting_end_time": "2026-11-04T14:26:31.587674202Z",
+    "voting_start_time": "2026-10-30T14:26:31.587674202Z"
+  }
+}

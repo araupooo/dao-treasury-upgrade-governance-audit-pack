@@ -1,0 +1,91 @@
+{
+  "proposal": {
+    "deposit_end_time": "2026-11-23T17:20:59.790148559Z",
+    "expedited": false,
+    "failed_reason": "",
+    "final_tally_result": {
+      "abstain_count": "0",
+      "no_count": "0",
+      "no_with_veto_count": "0",
+      "yes_count": "0"
+    },
+    "id": "1067",
+    "messages": [
+      {
+        "@type": "/cosmwasm.wasm.v1.MsgPinCodes",
+        "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+        "code_ids": [
+          "555",
+          "852",
+          "1239",
+          "1240",
+          "1241",
+          "1874",
+          "1905"
+        ]
+      },
+      {
+        "@type": "/cosmwasm.wasm.v1.MsgUnpinCodes",
+        "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+        "code_ids": [
+          "1",
+          "39",
+          "41",
+          "46",
+          "142",
+          "149",
+          "150",
+          "151",
+          "152",
+          "182",
+          "183",
+          "254",
+          "256",
+          "259",
+          "327",
+          "361",
+          "365",
+          "366",
+          "367",
+          "575",
+          "588",
+          "641",
+          "732",
+          "744",
+          "809",
+          "825",
+          "831",
+          "832",
+          "833",
+          "844",
+          "1054",
+          "1064",
+          "1151",
+          "1152",
+          "1153",
+          "1175",
+          "1352",
+          "1355",
+          "1357",
+          "1358",
+          "1361",
+          "1362"
+        ]
+      }
+    ],
+    "metadata": "Not Used",
+    "proposer": "osmo19w2t4ue7qpdh6022m3yxmxvv3w7jla7u3hfq0r",
+    "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+    "submit_time": "2026-11-09T17:20:59.790148559Z",
+    "summary": "This proposal updates the set of pinned CosmWasm codes on Osmosis, unpinning 42 codes that are no longer in active use and pinning 7 codes that carry some of the busiest contracts on the chain.\n\nThis is a routine proposal that maintains the list of pinned codes based on contract usage, as the codes used by active contracts change over time through migrations and new deployments. The previous update was in February 2025.\n\n# Pinning\n\nA pinned code is kept compiled in memory on every node instead of being loaded from disk when called. The wasm module charges 2,000 gas to set up a call to a pinned code, against 60,000 for an unpinned one. This applies to every instantiate, execute, migrate, sudo call and smart query, including calls between contracts within a single transaction. Pinning a frequently called code lowers the gas cost of every transaction that touches it, while every pinned code occupies memory on each node whether it is used or not.\n\n# Selection Criteria\n\nUsage counts every transaction that calls a contract running the code, either directly or through a call made by the chain itself, such as CosmWasm pool swaps, IBC rate limit checks and smart account authenticators.\n\n* **Unpin:** pinned codes with no contracts, or with fewer than 1,000 transactions over the last 6 months.\n* **Unpin:** pinned codes that have been replaced by a newer version, or whose use over the last month has fallen close to zero.\n* **Pin:** unpinned codes with at least 10,000 transactions over the last 6 months and continued use over the last month.\n* The three ICNS codes stay pinned. They are used mainly through queries from wallets, which transaction counts don't capture.\n\nUsage covers the 6 months to 11 October 2026 and was rechecked against the chain on 3 November 2026, including the last 4 weeks of use for every code that stays pinned.\n\n## Current Pins (51)\n\n| Code ID | Team | Contract |\n| -- | -- | -- |\n| 1 | Apollo | Apollo multisig |\n| 7 | Osmosis Fdn | ICNS Name NFT |\n| 8 | Osmosis Fdn | ICNS Resolver |\n| 9 | Osmosis Fdn | ICNS Registrar |\n| 39 | Omniflix | StreamSwap |\n| 41 | TFM | Router |\n| 46 | Wormhole | Wormhole |\n| 142 | Pyth | Pyth v1.3 |\n| 148 | Osmosis Fdn | Transmuter v1 |\n| 149 | Osmosis Fdn | Affiliate Swap |\n| 150 | WBTC | WBTC |\n| 151 | Stride | stAsset Redemption Rate Oracle |\n| 152 | Stride | stAsset Scaling Factor Auto-update |\n| 182 | Osmosis Fdn | CrossChain Registry |\n| 183 | Osmosis Fdn | CrossChain Swaps |\n| 184 | Osmosis Fdn | CrossChain SwapRouter |\n| 254 | Osmosis Fdn | Transmuter v2 |\n| 256 | Coinhall | Genie |\n| 259 | Ojo | Ojo Oracle |\n| 327 | Nois | Nois Proxy |\n| 361 | DAODAO | Single Choice Proposal |\n| 365 | DAODAO | Core |\n| 366 | DAODAO | Multiple Choice Proposal |\n| 367 | DAODAO | Token Staking |\n| 371 | Terraform Labs | Cross-chain Proxy |\n| 575 | Calculated Finance | CALC DCA |\n| 588 | Banana | Banana Vaults |\n| 641 | White Whale | White Whale CWpool Adapter |\n| 732 | White Whale | White Whale Pool 1.3.7 |\n| 744 | Quasar | Vaults |\n| 809 | Raccoon | Raccoon Bet |\n| 825 | Flamb\u00e8 | Start Cooking |\n| 831 | Skip | IBC Transfer Adapter |\n| 832 | Skip | Skip Swap Adapter |\n| 833 | Skip | Skip Entry Point |\n| 842 | Astroport | PCL Pool 1.0.3 |\n| 844 | MilkyWay | MilkyWay TIA |\n| 885 | Osmosis Fdn | Orderbooks v2 |\n| 996 | Osmosis Fdn | Transmuter v3.2 |\n| 1054 | Quasar | Vaults |\n| 1064 | Levana | Market |\n| 1151 | Skip | IBC Transfer Adapter |\n| 1152 | Skip | Skip Swap Adapter |\n| 1153 | Skip | Skip Entry Point |\n| 1175 | Osmosis Fdn | Rate Limiter v2 |\n| 1352 | Mars | Red Bank |\n| 1355 | Mars | Oracle |\n| 1357 | Mars | Swapper |\n| 1358 | Mars | Params |\n| 1361 | Mars | Credit Manager |\n| 1362 | Mars | Health |\n\n## Proposed Removals (42)\n\n| Code ID | Team | Contract | Reason for removal |\n| -- | -- | -- | -- |\n| 1 | Apollo | Apollo multisig | Infrequent use |\n| 39 | Omniflix | StreamSwap | No use |\n| 41 | TFM | Router | Infrequent use |\n| 46 | Wormhole | Wormhole | Infrequent use |\n| 142 | Pyth | Pyth v1.3 | No use |\n| 149 | Osmosis Fdn | Affiliate Swap | No use |\n| 150 | WBTC | WBTC | Infrequent use |\n| 151 | Stride | stAsset Redemption Rate Oracle | No recent use |\n| 152 | Stride | stAsset Scaling Factor Auto-update | No recent use |\n| 182 | Osmosis Fdn | CrossChain Registry | No use |\n| 183 | Osmosis Fdn | CrossChain Swaps | No use |\n| 254 | Osmosis Fdn | Transmuter v2 | No instances |\n| 256 | Coinhall | Genie | No use |\n| 259 | Ojo | Ojo Oracle | No use |\n| 327 | Nois | Nois Proxy | No use |\n| 361 | DAODAO | Single Choice Proposal | Infrequent use |\n| 365 | DAODAO | Core | Infrequent use |\n| 366 | DAODAO | Multiple Choice Proposal | No use |\n| 367 | DAODAO | Token Staking | Infrequent use |\n| 575 | Calculated Finance | CALC DCA | Declining use |\n| 588 | Banana | Banana Vaults | No use |\n| 641 | White Whale | White Whale CWpool Adapter | Declining use |\n| 732 | White Whale | White Whale Pool 1.3.7 | Declining use |\n| 744 | Quasar | Vaults | No use |\n| 809 | Raccoon | Raccoon Bet | Infrequent use |\n| 825 | Flamb\u00e8 | Start Cooking | Infrequent use |\n| 831 | Skip | IBC Transfer Adapter | Migration |\n| 832 | Skip | Skip Swap Adapter | Migration |\n| 833 | Skip | Skip Entry Point | Migration |\n| 844 | MilkyWay | MilkyWay TIA | No instances |\n| 1054 | Quasar | Vaults | Infrequent use |\n| 1064 | Levana | Market | No instances |\n| 1151 | Skip | IBC Transfer Adapter | Migration |\n| 1152 | Skip | Skip Swap Adapter | Migration |\n| 1153 | Skip | Skip Entry Point | Migration |\n| 1175 | Osmosis Fdn | Rate Limiter v2 | Migration |\n| 1352 | Mars | Red Bank | No instances |\n| 1355 | Mars | Oracle | No use |\n| 1357 | Mars | Swapper | No use |\n| 1358 | Mars | Params | No use |\n| 1361 | Mars | Credit Manager | No instances |\n| 1362 | Mars | Health | No use |\n\nTogether these 42 codes carried 49,134 transactions over the 6 months, 3.8% of the transactions on pinned codes, and most of that use has since moved to newer codes or stopped.\n\n## Proposed Additions (7)\n\n| Code ID | Team | Contract | Transactions (6 months) | Reason for addition |\n| -- | -- | -- | -- | -- |\n| 1905 | Osmosis Fdn | Rate Limiter v3 | Every IBC transfer | Migration |\n| 1239 | Skip | Skip Go IBC Transfer Adapter | 500,809 | Migration |\n| 1241 | Skip | Skip Go Entry Point | 306,161 | Migration |\n| 1240 | Skip | Skip Go Swap Adapter | 292,718 | Migration |\n| 852 | Osmosis Fdn | Spend Limit Authenticator (1-Click Trading) | 136,353 | High usage |\n| 555 | Squid | Multicall | 50,568 | High usage |\n| 1874 | Skip | Go Fast Transfer | 17,656 | High usage |\n\nThe IBC Rate Limit contract is called on every IBC transfer into and out of Osmosis. Its new code, 1905, was stored by the IBC Rate Limiting v3 upgrade (Proposal 1062).\n\nEach 1-Click Trading transaction calls the spend limit authenticator three times, so pinning its code saves about 174,000 gas per transaction.\n\n## Pins after Review (16)\n\n| Code ID | Team | Contract | Contract Type |\n| -- | -- | -- | -- |\n| 7 | Osmosis Fdn | ICNS Name NFT | Name Service |\n| 8 | Osmosis Fdn | ICNS Resolver | Name Service |\n| 9 | Osmosis Fdn | ICNS Registrar | Name Service |\n| 148 | Osmosis Fdn | Transmuter v1 | CW Pool |\n| 184 | Osmosis Fdn | CrossChain SwapRouter | Routing Service |\n| 371 | Terraform Labs | Cross-chain Proxy | Cross-chain Account |\n| 555 | Squid | Multicall | Router |\n| 842 | Astroport | PCL Pool 1.0.3 | CW Pool |\n| 852 | Osmosis Fdn | Spend Limit Authenticator | Smart Account |\n| 885 | Osmosis Fdn | Orderbooks v2 | CW Pool |\n| 996 | Osmosis Fdn | Transmuter v3.2 | CW Pool |\n| 1239 | Skip | Skip Go IBC Transfer Adapter | Router |\n| 1240 | Skip | Skip Go Swap Adapter | Router |\n| 1241 | Skip | Skip Go Entry Point | Router |\n| 1874 | Skip | Go Fast Transfer | Bridge |\n| 1905 | Osmosis Fdn | Rate Limiter v3 | Safety Control |\n\n**Forum Thread**: [https://forum.osmosis.zone/t/cosmwasm-pinning-update-november-2026/4200](https://forum.osmosis.zone/t/cosmwasm-pinning-update-november-2026/4200)\n",
+    "title": "CosmWasm Pinning Update - November 2026",
+    "total_deposit": [
+      {
+        "amount": "30000000000",
+        "denom": "uosmo"
+      }
+    ],
+    "voting_end_time": "2026-11-14T17:20:59.790148559Z",
+    "voting_start_time": "2026-11-09T17:20:59.790148559Z"
+  }
+}
