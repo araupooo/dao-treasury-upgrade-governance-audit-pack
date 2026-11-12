@@ -1,0 +1,175 @@
+clean_reproduce: temp dir /tmp/dao-audit-repro-IYVzcT
+run_all: pack=/tmp/dao-audit-repro-IYVzcT/pack work=/tmp/dao-audit-repro-IYVzcT/work out=/tmp/dao-audit-repro-IYVzcT/pack/outputs prefix=fresh-clone-
+run_all: date 2026-11-12 19:44:03 UTC
+run_all: python Python 3.12.3
+=== fetch_treasury ===
+=== Cosmos Hub (cosmoshub-4) ===
+  latest height 33848626 at 2026-11-12T19:43:58.245742023Z
+  voting_period=604800s quorum=0.400000000000000000 threshold=0.500000000000000000 veto=0.334000000000000000 expedited=259200s/0.667000000000000000
+  community_tax=0.020000000000000000 inflation=0.100000000000000000
+  bonded=343733663461981 uatom (343.73M whole)
+  validators bonded=180 top1=0.1903 top4=0.3815 top10=0.5656 hhi=0.05855
+  pool uatom now=11548776095298.360476510547702313 hist@33746800=11523511723368.829918587339741183 delta=25264.37 whole over 101826 blocks
+  ibc USDC.n (Noble) hash_match=True pool_balance=None
+  ibc USDC.inj (Injective) hash_match=True pool_balance=566068055810.000000000000000000
+  multisig cosmos1z8pq5cn7tdrww threshold_onchain=4 signers_onchain=6 seq=2 balances=[('uatom', '136746')]
+  wasm contract info available: False
+  multisig cosmos1amny2nf23uauu threshold_onchain=None signers_onchain=None seq=0 balances=[]
+  wasm contract info available: True
+  spend prop 1060 [PROPOSAL_STATUS_PASSED] Migrate Community Pool USDC.n to USDC.inj via a Community Multisig -> cosmos1amny2nf23uauu79lzp299tvh9v4a62uuxvh8xyj7qavrm0adztsq5sz864 [{'denom': 'ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013', 'amount': '566067055810'}]
+  spend prop 1056 [PROPOSAL_STATUS_REJECTED] ATOM Refund & Justice Bounty -> cosmos1erq7tre6nk0jfx203z8ey75g4m7yfrckh2nk3v [{'denom': 'uatom', 'amount': '1721120000000'}]
+  spend prop 1054 [PROPOSAL_STATUS_PASSED] ATOM Integration & Listing on Paxos’ Regulated Brokerage Infrastructure -> cosmos1fhwnl8tls2z4leyyvluyqq8erzmwzepcku8zkg [{'denom': 'ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013', 'amount': '300740000000'}]
+  spend prop 1043 [PROPOSAL_STATUS_PASSED] Fund Hypha to operate the Hub's public testnet program for 2026/2027 -> cosmos1ax7krw2ymq8upaxwce7df3xpalpp0jddm29fws [{'denom': 'ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013', 'amount': '202320000000'}]
+  spend prop 1022 [PROPOSAL_STATUS_REJECTED] Deploy community pool ATOM into Hydro’s Inflow vault -> cosmos1hj9zuecf0xcjhx8ttcrwd9pmee25xe2plglgcpfk2kjjveet3zyq9nellq [{'denom': 'uatom', 'amount': '7000000000000'}]
+=== Cosmos Hub DONE ===
+=== Osmosis (osmosis-1) ===
+  latest height 74941522 at 2026-11-12T19:47:11.727652872Z
+  voting_period=432000s quorum=0.300000000000000000 threshold=0.500000000000000000 veto=0.334000000000000000 expedited=86400s/0.800000000000000000
+  community_tax=0.000000000000000000 inflation=0.000000000000000000
+  bonded=155287856834364 uosmo (155.29M whole)
+  validators bonded=30 top1=0.1352 top4=0.3737 top10=0.6077 hhi=0.05570
+  pool uosmo now=63780813943667.709753652334775173 hist@74800000=63780813437007.341012456458974695 delta=0.51 whole over 141522 blocks
+  spend prop 1057 [PROPOSAL_STATUS_PASSED] Burn Community Pool OSMO to Reach 100 Million Burned -> osmo1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqmcn030 [{'denom': 'uosmo', 'amount': '55500000000000'}]
+  spend prop 1055 [PROPOSAL_STATUS_PASSED] Rebalance Community Pool Reserves into BTC, ETH and USDC -> osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc [{'denom': 'ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373', 'amount': '726327963777610814955'}, {'denom': 'ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2', 'amount': '29854667429'}, {'denom': 'ibc/2F21E6D4271DE3F561F20A02CD541DAF7405B1E9CB3B9B07E3C2AC7D8A4338A5', 'amount': '1034070732591381362'}, {'denom': 'ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4', 'amount': '2020588012'}, {'denom': 'ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858', 'amount': '11871647424'}]
+  spend prop 1049 [PROPOSAL_STATUS_PASSED] Withdraw Margined-Managed OSMO LST and ETH/BTC Liquidity -> osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc [{'denom': 'factory/osmo159f7axyc32cyfgzx0gs9r98jwpgutj5qz4ns97xvu7nw3xzpavzsg2uxr3/locust-vault-1922', 'amount': '160183618723'}, {'denom': 'factory/osmo16s3sxs5886p42kteunp6370pken2n5ukzszz0trkr39epqtawn2qk4r9l5/lsd-vault-1252', 'amount': '3569321921678'}, {'denom': 'factory/osmo1cztgw4e467vjljd0s2flz8asu3x3wg9q0ttga9t6kzmpyaauxxrs2gjshq/locust-vault-1923', 'amount': '86142455828'}, {'denom': 'factory/osmo1rtflmlsu053kdfuh8qz0avly63gj5tmgu5naxlvcngttdujmapcslzgwq4/locust-vault-2285', 'amount': '1235074629011'}, {'denom': 'factory/osmo1xugxhp2knsyvxelghc340gq886kdwgv36sr0afwu6egeds3aafgsy4n2g4/locust-vault-1982', 'amount': '8530121655'}]
+  spend prop 1044 [PROPOSAL_STATUS_PASSED] Alloyed BTC: Restore backing after the nBTC incident -> osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc [{'denom': 'factory/osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3/alloyed/allBTC', 'amount': '1248380000'}]
+  spend prop 1042 [PROPOSAL_STATUS_PASSED] Migrate Protocol USDC to Alloyed USDC -> osmo1rvq5cq2j35k7sqqz49e5e8zezl45fcywcawazh46qnc0g96d0d6sasqsgc [{'denom': 'factory/osmo15gqhlr4tem7s3qanhqwy28mm2maxrpha9acelldr4m73ujv6lclqg3s37j/locust-vault-2700', 'amount': '504330487523'}, {'denom': 'factory/osmo193kjx80ag4tck2enuxcprxnrcusemmh5mun5k87c96d7swz6y2dqf39rxe/locust-vault-1943', 'amount': '95286098774'}, {'denom': 'factory/osmo1a7vgqphmdsahksqjaegtgjr5086nz5vl6frjay5rl3jucjdqmfkqlh47wc/locust-vault-2970', 'amount': '879150712128'}, {'denom': 'ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4', 'amount': '692740101787'}]
+=== Osmosis DONE ===
+fetch_treasury: DONE
+=== audit_proposals ===
+=== auditing Cosmos Hub ===
+  proposal 1061
+    upgrade height 33935300, 86636 blocks left, ~495185 s to upgrade (91402.3 s after voting ends)
+    votes: 877 fetched; fetching delegation totals (snapshot) ...
+      ... 200/877 voters
+      ... 400/877 voters
+      ... 600/877 voters
+      ... 800/877 voters
+    concentration: n=876 top1=0.1053 top4=0.2619 top10=0.3915 hhi=0.02659 gini=0.8770
+  proposal 1060
+    votes: UNAVAILABLE (finalized proposal, empty list from LCD)
+  proposal 1058
+    votes: UNAVAILABLE (finalized proposal, empty list from LCD)
+=== Cosmos Hub audit DONE ===
+=== auditing Osmosis ===
+  proposal 1067
+    votes: 501 fetched; fetching delegation totals (snapshot) ...
+      ... 200/501 voters
+      ... 400/501 voters
+    concentration: n=498 top1=0.0924 top4=0.3079 top10=0.5562 hhi=0.03850 gini=0.8955
+  proposal 1066
+    votes: 511 fetched; fetching delegation totals (snapshot) ...
+      ... 200/511 voters
+      ... 400/511 voters
+    concentration: n=507 top1=0.0949 top4=0.3163 top10=0.5714 hhi=0.04012 gini=0.8985
+  proposal 1057
+    votes: UNAVAILABLE (finalized proposal, empty list from LCD)
+=== Osmosis audit DONE ===
+audit_proposals: DONE
+=== score_findings ===
+  F-01 [Medium] evidence=4 pointers OK
+  F-02 [Medium] evidence=3 pointers OK
+  F-03 [Medium] evidence=2 pointers OK
+  F-04 [Info] evidence=2 pointers OK
+  F-05 [Medium] evidence=3 pointers OK
+  F-06 [Low] evidence=3 pointers OK
+  F-07 [Low] evidence=3 pointers OK
+  F-08 [Low] evidence=3 pointers OK
+  F-09 [Low] evidence=1 pointers OK
+  F-10 [Info] evidence=2 pointers OK
+  F-11 [Info] evidence=1 pointers OK
+  F-12 [Info] evidence=1 pointers OK
+score_findings: DONE — 12 findings: {'Medium': 4, 'Info': 4, 'Low': 4}
+=== make_index ===
+make_index: wrote /tmp/dao-audit-repro-IYVzcT/pack/docs/index.html (10993 bytes)
+=== make_sha256sums ===
+SHA256SUMS: 44 files
+run_all: DONE — outputs in /tmp/dao-audit-repro-IYVzcT/pack/outputs
+total 108
+-rw-rw---- 1 root root  1530 Nov 12 19:59 findings-scored.csv
+-rw-rw---- 1 root root 13657 Nov 12 19:59 findings-scored.json
+-rw-rw---- 1 root root  7701 Nov 12 19:59 fresh-clone-run-all.log
+-rw-rw---- 1 root root   875 Nov 12 19:53 proposals-cosmoshub.csv
+-rw-rw---- 1 root root 10541 Nov 12 19:53 proposals-cosmoshub.json
+-rw-rw---- 1 root root   857 Nov 12 19:59 proposals-osmosis.csv
+-rw-rw---- 1 root root 10566 Nov 12 19:59 proposals-osmosis.json
+-rw-rw---- 1 root root  1443 Nov 12 19:47 treasury-cosmoshub.csv
+-rw-rw---- 1 root root 22272 Nov 12 19:47 treasury-cosmoshub.json
+-rw-rw---- 1 root root  3103 Nov 12 19:47 treasury-osmosis.csv
+-rw-rw---- 1 root root 13422 Nov 12 19:47 treasury-osmosis.json
+compare_reproduce: shipped=/home/hatch/workspace/goals/postfiat-task-node-connection/hidden_files/task-62fc820d/pack fresh=/tmp/dao-audit-repro-IYVzcT/pack
+== cosmoshub ==
+  OK   cosmoshub chain_id
+  OK   cosmoshub gov params identical
+  OK   cosmoshub distribution params identical
+  OK   cosmoshub staking params identical
+  OK   cosmoshub historical-height pool identical
+  OK   cosmoshub historical height identical
+  OK   cosmoshub ibc denom USDC.n (Noble) identical
+  OK   cosmoshub ibc denom USDC.inj (Injective) identical
+  OK   cosmoshub multisig cosmos1z8pq5cn7t threshold identical
+  OK   cosmoshub multisig cosmos1z8pq5cn7t signer count identical
+  OK   cosmoshub multisig cosmos1amny2nf23 threshold identical
+  OK   cosmoshub multisig cosmos1amny2nf23 signer count identical
+  OK   cosmoshub validator HHI within 0.01 (0.05855 vs 0.05855)
+  OK   cosmoshub validator top4 share within 0.02
+  OK   cosmoshub fresh height >= shipped height
+  OK   cosmoshub fresh current pool non-empty
+  OK   cosmoshub fresh spend list at least as long
+  OK   cosmoshub proposal 1061 id
+  OK   cosmoshub proposal 1061 voting: votes fetched present
+  OK   cosmoshub proposal 1061 voting: tally present
+  OK   cosmoshub proposal 1061 timelock identical
+  OK   cosmoshub proposal 1060 id
+  OK   cosmoshub proposal 1060 finalized tally identical
+  FAIL cosmoshub proposal 1060 finalized quorum evaluation identical
+  OK   cosmoshub proposal 1060 timelock identical
+  OK   cosmoshub proposal 1058 id
+  OK   cosmoshub proposal 1058 finalized tally identical
+  FAIL cosmoshub proposal 1058 finalized quorum evaluation identical
+  OK   cosmoshub proposal 1058 timelock identical
+== osmosis ==
+  OK   osmosis chain_id
+  OK   osmosis gov params identical
+  OK   osmosis distribution params identical
+  OK   osmosis staking params identical
+  OK   osmosis historical-height pool identical
+  OK   osmosis historical height identical
+  OK   osmosis validator HHI within 0.01 (0.05570 vs 0.05570)
+  OK   osmosis validator top4 share within 0.02
+  OK   osmosis fresh height >= shipped height
+  OK   osmosis fresh current pool non-empty
+  OK   osmosis fresh spend list at least as long
+  OK   osmosis proposal 1067 id
+  OK   osmosis proposal 1067 voting: votes fetched present
+  OK   osmosis proposal 1067 voting: tally present
+  OK   osmosis proposal 1067 timelock identical
+  OK   osmosis proposal 1066 id
+  OK   osmosis proposal 1066 voting: votes fetched present
+  OK   osmosis proposal 1066 voting: tally present
+  OK   osmosis proposal 1066 timelock identical
+  OK   osmosis proposal 1057 id
+  OK   osmosis proposal 1057 finalized tally identical
+  FAIL osmosis proposal 1057 finalized quorum evaluation identical
+  OK   osmosis proposal 1057 timelock identical
+  OK   findings count identical
+  OK   finding F-01 severity identical
+  OK   finding F-02 severity identical
+  OK   finding F-03 severity identical
+  OK   finding F-04 severity identical
+  OK   finding F-05 severity identical
+  OK   finding F-06 severity identical
+  OK   finding F-07 severity identical
+  OK   finding F-08 severity identical
+  OK   finding F-09 severity identical
+  OK   finding F-10 severity identical
+  OK   finding F-11 severity identical
+  OK   finding F-12 severity identical
+compare_reproduce: 3 failure(s)
+  FAILED: cosmoshub proposal 1060 finalized quorum evaluation identical
+  FAILED: cosmoshub proposal 1058 finalized quorum evaluation identical
+  FAILED: osmosis proposal 1057 finalized quorum evaluation identical
+clean_reproduce: FATAL — comparison failed
+exit=1
+
+[POST-RUN NOTE 2026-11-13 ~02:50 WIB] The 3 comparison failures above were an over-strict comparison, not a data mismatch: bonded stake moved between runs (turnout differed by 0.000004). compare_reproduce.py was corrected (tally-derived quorum fields exact; turnout tolerance 0.005) and re-run manually against the same attempt-2 fresh outputs in /tmp/dao-audit-repro-IYVzcT: result "compare_reproduce: 0 failure(s)". Fresh-environment reproduction VERIFIED.
