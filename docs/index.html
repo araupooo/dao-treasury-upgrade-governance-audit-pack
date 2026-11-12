@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>DAO Treasury and Upgrade-Governance Audit Pack — Evidence Index</title>
+<style>body{font-family:system-ui,sans-serif;max-width:1000px;margin:2em auto;padding:0 1em}
+table{border-collapse:collapse;margin:1em 0}td,th{border:1px solid #999;padding:.3em .6em;text-align:left}
+code{background:#f2f2f2;padding:0 .2em}</style></head><body>
+<h1>DAO Treasury and Upgrade-Governance Audit Pack</h1>
+<p>Chains audited: <strong>Cosmos Hub (cosmoshub-4)</strong> and <strong>Osmosis (osmosis-1)</strong>.
+All figures below are copied verbatim from the JSON outputs in <code>outputs/</code>;
+see <code>docs/findings-report.md</code> and <code>docs/decision-memo.md</code> for the
+rated findings and the decision memo, and <code>README.md</code> for reproduction commands.
+No API key or private credential is needed to rerun the toolkit.</p>
+<h2>Community pool balances (bond denom)</h2>
+<table><tr><th>Chain</th><th>Height now</th><th>Pool now (base units)</th>
+<th>Historical height</th><th>Pool then (base units)</th><th>Delta (whole tokens)</th><th>Blocks span</th></tr>
+<tr><td>Cosmos Hub</td><td>33847852</td><td>11548584083652.704590414927285005</td><td>33746800</td><td>11523511723368.829918587339741183</td><td>25072.360283875</td><td>101052</td></tr>
+<tr><td>Osmosis</td><td>74936465</td><td>63780813943640.887263476513612429</td><td>74800000</td><td>63780813437007.341012456458974695</td><td>0.506633546875</td><td>136465</td></tr>
+</table>
+<h2>Proposals audited</h2>
+<table><tr><th>Chain</th><th>ID</th><th>Title</th><th>Status</th><th>Turnout</th>
+<th>Quorum met</th><th>Yes share (ex-abstain)</th><th>Top-10 voter stake share</th><th>Votes fetched</th></tr>
+<tr><td>Cosmos Hub</td><td>1061</td><td>Gaia v29.1.0 upgrade</td><td>PROPOSAL_STATUS_VOTING_PERIOD</td><td>38.44%</td><td>False</td><td>100.00%</td><td>39.37%</td><td>865</td></tr>
+<tr><td>Cosmos Hub</td><td>1060</td><td>Migrate Community Pool USDC.n to USDC.inj via a Community Multisig</td><td>PROPOSAL_STATUS_PASSED</td><td>53.02%</td><td>True</td><td>99.98%</td><td>n/a</td><td>0</td></tr>
+<tr><td>Cosmos Hub</td><td>1058</td><td>Move the 1,227,121 ATOM recovered after the Neutron exploit to the Neutron recovery multisig</td><td>PROPOSAL_STATUS_PASSED</td><td>58.56%</td><td>True</td><td>99.72%</td><td>n/a</td><td>0</td></tr>
+<tr><td>Osmosis</td><td>1067</td><td>CosmWasm Pinning Update - November 2026</td><td>PROPOSAL_STATUS_VOTING_PERIOD</td><td>56.66%</td><td>True</td><td>100.00%</td><td>56.34%</td><td>497</td></tr>
+<tr><td>Osmosis</td><td>1066</td><td>Signal a 10% Minimum Validator Commission</td><td>PROPOSAL_STATUS_VOTING_PERIOD</td><td>54.41%</td><td>True</td><td>99.28%</td><td>57.90%</td><td>506</td></tr>
+<tr><td>Osmosis</td><td>1057</td><td>Burn Community Pool OSMO to Reach 100 Million Burned</td><td>PROPOSAL_STATUS_PASSED</td><td>66.35%</td><td>True</td><td>99.98%</td><td>n/a</td><td>0</td></tr>
+</table>
+<h2>Community-pool spends found (recent scan)</h2>
+<table><tr><th>Chain</th><th>Proposal</th><th>Title</th><th>Status</th><th>Denom</th><th>Amount (base units)</th></tr>
+<tr><td>Cosmos Hub</td><td>1060</td><td>Migrate Community Pool USDC.n to USDC.inj via a Community Multisig</td><td>PROPOSAL_STATUS_PASSED</td><td>ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013</td><td>566067055810</td></tr>
+<tr><td>Cosmos Hub</td><td>1056</td><td>ATOM Refund &amp; Justice Bounty</td><td>PROPOSAL_STATUS_REJECTED</td><td>uatom</td><td>1721120000000</td></tr>
+<tr><td>Cosmos Hub</td><td>1054</td><td>ATOM Integration &amp; Listing on Paxos’ Regulated Brokerage Infrastructure</td><td>PROPOSAL_STATUS_PASSED</td><td>ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013</td><td>300740000000</td></tr>
+<tr><td>Cosmos Hub</td><td>1043</td><td>Fund Hypha to operate the Hub&#x27;s public testnet program for 2026/2027</td><td>PROPOSAL_STATUS_PASSED</td><td>ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013</td><td>202320000000</td></tr>
+<tr><td>Cosmos Hub</td><td>1022</td><td>Deploy community pool ATOM into Hydro’s Inflow vault</td><td>PROPOSAL_STATUS_REJECTED</td><td>uatom</td><td>7000000000000</td></tr>
+<tr><td>Osmosis</td><td>1057</td><td>Burn Community Pool OSMO to Reach 100 Million Burned</td><td>PROPOSAL_STATUS_PASSED</td><td>uosmo</td><td>55500000000000</td></tr>
+<tr><td>Osmosis</td><td>1055</td><td>Rebalance Community Pool Reserves into BTC, ETH and USDC</td><td>PROPOSAL_STATUS_PASSED</td><td>ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373</td><td>726327963777610814955</td></tr>
+<tr><td>Osmosis</td><td>1055</td><td>Rebalance Community Pool Reserves into BTC, ETH and USDC</td><td>PROPOSAL_STATUS_PASSED</td><td>ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2</td><td>29854667429</td></tr>
+<tr><td>Osmosis</td><td>1055</td><td>Rebalance Community Pool Reserves into BTC, ETH and USDC</td><td>PROPOSAL_STATUS_PASSED</td><td>ibc/2F21E6D4271DE3F561F20A02CD541DAF7405B1E9CB3B9B07E3C2AC7D8A4338A5</td><td>1034070732591381362</td></tr>
+<tr><td>Osmosis</td><td>1055</td><td>Rebalance Community Pool Reserves into BTC, ETH and USDC</td><td>PROPOSAL_STATUS_PASSED</td><td>ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4</td><td>2020588012</td></tr>
+<tr><td>Osmosis</td><td>1055</td><td>Rebalance Community Pool Reserves into BTC, ETH and USDC</td><td>PROPOSAL_STATUS_PASSED</td><td>ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858</td><td>11871647424</td></tr>
+<tr><td>Osmosis</td><td>1049</td><td>Withdraw Margined-Managed OSMO LST and ETH/BTC Liquidity</td><td>PROPOSAL_STATUS_PASSED</td><td>factory/osmo159f7axyc32cyfgzx0gs9r98jwpgutj5qz4ns97xvu7nw3xzpavzsg2uxr3/locust-vault-1922</td><td>160183618723</td></tr>
+<tr><td>Osmosis</td><td>1049</td><td>Withdraw Margined-Managed OSMO LST and ETH/BTC Liquidity</td><td>PROPOSAL_STATUS_PASSED</td><td>factory/osmo16s3sxs5886p42kteunp6370pken2n5ukzszz0trkr39epqtawn2qk4r9l5/lsd-vault-1252</td><td>3569321921678</td></tr>
+<tr><td>Osmosis</td><td>1049</td><td>Withdraw Margined-Managed OSMO LST and ETH/BTC Liquidity</td><td>PROPOSAL_STATUS_PASSED</td><td>factory/osmo1cztgw4e467vjljd0s2flz8asu3x3wg9q0ttga9t6kzmpyaauxxrs2gjshq/locust-vault-1923</td><td>86142455828</td></tr>
+<tr><td>Osmosis</td><td>1049</td><td>Withdraw Margined-Managed OSMO LST and ETH/BTC Liquidity</td><td>PROPOSAL_STATUS_PASSED</td><td>factory/osmo1rtflmlsu053kdfuh8qz0avly63gj5tmgu5naxlvcngttdujmapcslzgwq4/locust-vault-2285</td><td>1235074629011</td></tr>
+<tr><td>Osmosis</td><td>1049</td><td>Withdraw Margined-Managed OSMO LST and ETH/BTC Liquidity</td><td>PROPOSAL_STATUS_PASSED</td><td>factory/osmo1xugxhp2knsyvxelghc340gq886kdwgv36sr0afwu6egeds3aafgsy4n2g4/locust-vault-1982</td><td>8530121655</td></tr>
+<tr><td>Osmosis</td><td>1044</td><td>Alloyed BTC: Restore backing after the nBTC incident</td><td>PROPOSAL_STATUS_PASSED</td><td>factory/osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3/alloyed/allBTC</td><td>1248380000</td></tr>
+<tr><td>Osmosis</td><td>1042</td><td>Migrate Protocol USDC to Alloyed USDC</td><td>PROPOSAL_STATUS_PASSED</td><td>factory/osmo15gqhlr4tem7s3qanhqwy28mm2maxrpha9acelldr4m73ujv6lclqg3s37j/locust-vault-2700</td><td>504330487523</td></tr>
+<tr><td>Osmosis</td><td>1042</td><td>Migrate Protocol USDC to Alloyed USDC</td><td>PROPOSAL_STATUS_PASSED</td><td>factory/osmo193kjx80ag4tck2enuxcprxnrcusemmh5mun5k87c96d7swz6y2dqf39rxe/locust-vault-1943</td><td>95286098774</td></tr>
+<tr><td>Osmosis</td><td>1042</td><td>Migrate Protocol USDC to Alloyed USDC</td><td>PROPOSAL_STATUS_PASSED</td><td>factory/osmo1a7vgqphmdsahksqjaegtgjr5086nz5vl6frjay5rl3jucjdqmfkqlh47wc/locust-vault-2970</td><td>879150712128</td></tr>
+<tr><td>Osmosis</td><td>1042</td><td>Migrate Protocol USDC to Alloyed USDC</td><td>PROPOSAL_STATUS_PASSED</td><td>ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4</td><td>692740101787</td></tr>
+</table>
+<h2>Findings (see docs/findings-report.md for evidence and remediation)</h2>
+<table><tr><th>ID</th><th>Severity</th><th>Title</th><th>Amount at risk</th></tr>
+<tr><td>F-01</td><td>Medium</td><td>No post-passage execution timelock on either chain</td><td>Hub pool 11,548,584.08 ATOM; Osmosis pool 63,780,813.94 OSMO</td></tr>
+<tr><td>F-02</td><td>Medium</td><td>Per-vote records for finalized proposals are not retrievable from public LCDs</td><td>n/a (verification gap, not a flow)</td></tr>
+<tr><td>F-03</td><td>Medium</td><td>USDC migration multisig threshold is not independently verifiable from the public LCD</td><td>566,067.055810 USDC.n sent; 566,068.055810 USDC.inj returned</td></tr>
+<tr><td>F-04</td><td>Info</td><td>USDC.n to USDC.inj migration reconciles, with a +1.000000 USDC difference</td><td>566,067.055810 USDC.n; delta +1.000000 USDC.inj</td></tr>
+<tr><td>F-05</td><td>Medium</td><td>Emergency powers are off-governance: chain halt and state change preceded the vote</td><td>1,227,121.374688 ATOM moved by state change</td></tr>
+<tr><td>F-06</td><td>Low</td><td>Validator-set concentration is high on both chains</td><td>Hub bonded 343.73M ATOM; Osmosis bonded 155.28M OSMO</td></tr>
+<tr><td>F-07</td><td>Low</td><td>Voting-stake concentration in live votes is high (Gini ~0.88-0.90)</td><td>n/a (governance concentration, not a flow)</td></tr>
+<tr><td>F-08</td><td>Low</td><td>Osmosis community pool is static: no issuance or tax inflow in params</td><td>Osmosis pool 63,780,813.94 OSMO; 11,104.00 ION</td></tr>
+<tr><td>F-09</td><td>Low</td><td>Gaia v29.1.0 upgrade executes about 24.6 hours after voting ends</td><td>n/a (upgrade timing, not a flow)</td></tr>
+<tr><td>F-10</td><td>Info</td><td>Osmosis proposal 1066 is a non-binding signal with no executable message</td><td>n/a</td></tr>
+<tr><td>F-11</td><td>Info</td><td>Cosmos Hub proposal 1061 turnout is below quorum at the snapshot (vote still open)</td><td>n/a</td></tr>
+<tr><td>F-12</td><td>Info</td><td>Osmosis community-pool burn of 55,500,000 OSMO executed as specified</td><td>55,500,000 OSMO</td></tr>
+</table>
+<h2>Files</h2>
+<ul>
+<li><code>scripts/</code> — fetch_treasury.py, audit_proposals.py, score_findings.py, run_all.sh, clean_reproduce.sh, compare_reproduce.py, verify_digests.sh, make_sha256sums.sh, make_index.py</li>
+<li><code>src/onchain.py</code> — public-LCD client (retries, backoff, fail-loud), concentration statistics</li>
+<li><code>configs/</code> — rubric.md (severity rubric), chain-endpoints.md (pinned endpoints, heights, proposal IDs)</li>
+<li><code>outputs/</code> — unedited run logs, treasury/proposal JSON + CSV, findings-scored JSON + CSV</li>
+<li><code>fixtures/</code> — proposal and parameter snapshots exactly as fetched</li>
+<li><code>docs/</code> — methodology.md, citations.md, evidence-index.md, findings-report.md, decision-memo.md</li>
+<li><code>SHA256SUMS</code> — digests of every shipped file; verify with <code>bash scripts/verify_digests.sh</code></li>
+</ul>
+</body></html>
