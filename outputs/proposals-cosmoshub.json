@@ -1,0 +1,241 @@
+{
+  "bonded_tokens_base": 343731414944348,
+  "chain": "Cosmos Hub",
+  "chain_id": "cosmoshub",
+  "gov_params": {
+    "burn_proposal_deposit_prevote": false,
+    "burn_vote_quorum": false,
+    "burn_vote_veto": true,
+    "expedited_min_deposit": [
+      {
+        "amount": "501000000",
+        "denom": "uatom"
+      }
+    ],
+    "expedited_threshold": "0.667000000000000000",
+    "expedited_voting_period": "259200s",
+    "max_deposit_period": "1209600s",
+    "min_deposit": [
+      {
+        "amount": "500000000",
+        "denom": "uatom"
+      }
+    ],
+    "min_deposit_ratio": "0.010000000000000000",
+    "min_initial_deposit_ratio": "0.100000000000000000",
+    "proposal_cancel_dest": "",
+    "proposal_cancel_ratio": "0.500000000000000000",
+    "quorum": "0.400000000000000000",
+    "threshold": "0.500000000000000000",
+    "veto_threshold": "0.334000000000000000",
+    "voting_period": "604800s"
+  },
+  "lcd": "https://rest.cosmos.directory/cosmoshub",
+  "proposals": [
+    {
+      "emergency_powers": {
+        "note": "No pause/halt/emergency message type appears in gov params or in this proposal's messages. Emergency action on these chains is therefore off-governance (validator-coordinated halt / social consensus), not an on-chain power. See findings report for the proposal-1058 case.",
+        "pause_or_halt_authority_in_gov_params": false,
+        "pause_or_halt_message_in_proposal": false
+      },
+      "id": 1061,
+      "messages": [
+        {
+          "detail": {
+            "authority": "cosmos10d07y265gmmuvt4z0w9aw880jnsr700j6zn9kn",
+            "plan": {
+              "height": "33935300",
+              "info": "{\"binaries\":{\"darwin/amd64\":\"https://github.com/cosmos/gaia/releases/download/v29.1.0/gaiad-v29.1.0-darwin-amd64?checksum=sha256:ffad022438034010366aa792a4ba99bd825f27bed3e2dd5d13eab92e857857da\",\"linux/amd64\":\"https://github.com/cosmos/gaia/releases/download/v29.1.0/gaiad-v29.1.0-linux-amd64?checksum=sha256:bba80bdeeede77af5f32e545080ee4e94988b4ffb2820fb7b28a8fd45eb15a44\"}}",
+              "name": "v29.1.0",
+              "time": "0001-01-01T00:00:00Z",
+              "upgraded_client_state": null
+            }
+          },
+          "type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade"
+        }
+      ],
+      "metadata": "ipfs://CID",
+      "quorum_evaluation": {
+        "abstain": 441404760,
+        "no": 46700000,
+        "passes_by_tally": false,
+        "quorum": 0.4,
+        "quorum_met": false,
+        "total_voted": 132125887437294,
+        "turnout": 0.38438700011951454,
+        "veto": 0,
+        "veto_share": 0.0,
+        "yes": 132125399332534,
+        "yes_share_non_abstain": 0.9999996465480239
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "submit_time": "2026-11-10T11:54:43.820711698Z",
+      "tally": {
+        "abstain_count": "441404760",
+        "no_count": "46700000",
+        "no_with_veto_count": "0",
+        "yes_count": "132125399332534"
+      },
+      "timelock": {
+        "avg_block_interval_s_measured": 5.682088608,
+        "blocks_to_upgrade_height": 87351,
+        "estimated_seconds_to_upgrade_height": 496336.121997408,
+        "estimated_upgrade_time_utc": 1795005097.7507534,
+        "expedited_voting_period_s": "259200s",
+        "post_passage_execution_timelock_s": 0,
+        "post_passage_timelock_source": "Cosmos SDK gov module: proposals execute at EndBlock on passage; no timelock parameter exists in gov params (see gov params snapshot).",
+        "upgrade_height": 33935300,
+        "upgrade_plan": {
+          "height": "33935300",
+          "info": "{\"binaries\":{\"darwin/amd64\":\"https://github.com/cosmos/gaia/releases/download/v29.1.0/gaiad-v29.1.0-darwin-amd64?checksum=sha256:ffad022438034010366aa792a4ba99bd825f27bed3e2dd5d13eab92e857857da\",\"linux/amd64\":\"https://github.com/cosmos/gaia/releases/download/v29.1.0/gaiad-v29.1.0-linux-amd64?checksum=sha256:bba80bdeeede77af5f32e545080ee4e94988b4ffb2820fb7b28a8fd45eb15a44\"}}",
+          "name": "v29.1.0",
+          "time": "0001-01-01T00:00:00Z",
+          "upgraded_client_state": null
+        },
+        "voting_end_to_upgrade_seconds_estimate": 88455.15341830254,
+        "voting_period_s": "604800s"
+      },
+      "title": "Gaia v29.1.0 upgrade",
+      "total_deposit": [
+        {
+          "amount": "501000000",
+          "denom": "uatom"
+        }
+      ],
+      "vote_concentration": {
+        "gini": 0.8778660151862806,
+        "hhi": 0.02688658703368553,
+        "stake_basis": "Current delegated stake at fetch time (snapshot), not stake at vote time. Voters with no current delegation contribute 0 and are excluded from shares.",
+        "stake_by_option": {
+          "VOTE_OPTION_ABSTAIN": 441404760,
+          "VOTE_OPTION_NO": 46700000,
+          "VOTE_OPTION_NO_WITH_VETO": 30000000,
+          "VOTE_OPTION_YES": 1101706489952
+        },
+        "top10_share": 0.3937126221052881,
+        "top1_share": 0.10589623351627181,
+        "top4_share": 0.2633506587102105,
+        "total_voter_stake_base": 1102224594712,
+        "voters_with_delegated_stake": 864,
+        "voters_with_zero_or_no_stake": 1,
+        "yes_stake_share_of_voter_stake": 0.9995299462899978
+      },
+      "votes_available": true,
+      "votes_fetched": 865,
+      "voting_end_time": "2026-11-17T11:57:22.597335274Z",
+      "voting_start_time": "2026-11-10T11:57:22.597335274Z"
+    },
+    {
+      "emergency_powers": {
+        "note": "No pause/halt/emergency message type appears in gov params or in this proposal's messages. Emergency action on these chains is therefore off-governance (validator-coordinated halt / social consensus), not an on-chain power. See findings report for the proposal-1058 case.",
+        "pause_or_halt_authority_in_gov_params": false,
+        "pause_or_halt_message_in_proposal": false
+      },
+      "id": 1060,
+      "messages": [
+        {
+          "detail": {
+            "amount": [
+              {
+                "amount": "566067055810",
+                "denom": "ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013"
+              }
+            ],
+            "authority": "cosmos10d07y265gmmuvt4z0w9aw880jnsr700j6zn9kn",
+            "recipient": "cosmos1amny2nf23uauu79lzp299tvh9v4a62uuxvh8xyj7qavrm0adztsq5sz864"
+          },
+          "type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend"
+        }
+      ],
+      "metadata": "Migrate Community Pool USDC.n to USDC.inj via a Community Multisig",
+      "quorum_evaluation": {
+        "abstain": 68536317065413,
+        "no": 17726454819,
+        "passes_by_tally": true,
+        "quorum": 0.4,
+        "quorum_met": true,
+        "total_voted": 182255028144463,
+        "turnout": 0.5302251124587233,
+        "veto": 4232568195,
+        "veto_share": 2.3223327433496587e-05,
+        "yes": 113696752056036,
+        "yes_share_non_abstain": 0.9998069005284562
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "submit_time": "2026-10-27T15:22:42.691395953Z",
+      "tally": {
+        "abstain_count": "68536317065413",
+        "no_count": "17726454819",
+        "no_with_veto_count": "4232568195",
+        "yes_count": "113696752056036"
+      },
+      "timelock": {
+        "expedited_voting_period_s": "259200s",
+        "post_passage_execution_timelock_s": 0,
+        "post_passage_timelock_source": "Cosmos SDK gov module: proposals execute at EndBlock on passage; no timelock parameter exists in gov params (see gov params snapshot).",
+        "voting_period_s": "604800s"
+      },
+      "title": "Migrate Community Pool USDC.n to USDC.inj via a Community Multisig",
+      "total_deposit": [
+        {
+          "amount": "500000000",
+          "denom": "uatom"
+        }
+      ],
+      "votes_available": false,
+      "votes_fetched": 0,
+      "votes_limitation": "Per-vote list is EMPTY for this finalized proposal on the public LCD (verified on two LCD providers, gov v1 and v1beta1). Per-voter concentration cannot be computed for it; tally-based quorum/turnout is the only voter evidence. See chain-endpoints.md.",
+      "voting_end_time": "2026-11-03T15:22:42.691395953Z",
+      "voting_start_time": "2026-10-27T15:22:42.691395953Z"
+    },
+    {
+      "emergency_powers": {
+        "note": "No pause/halt/emergency message type appears in gov params or in this proposal's messages. Emergency action on these chains is therefore off-governance (validator-coordinated halt / social consensus), not an on-chain power. See findings report for the proposal-1058 case.",
+        "pause_or_halt_authority_in_gov_params": false,
+        "pause_or_halt_message_in_proposal": false
+      },
+      "id": 1058,
+      "messages": [],
+      "metadata": "https://forum.cosmos.network/t/discussion-move-the-1-227-121-atom-recovered-after-the-neutron-exploit-to-the-neutron-recovery-multisig",
+      "quorum_evaluation": {
+        "abstain": 68846826073786,
+        "no": 354769347250,
+        "passes_by_tally": true,
+        "quorum": 0.4,
+        "quorum_met": true,
+        "total_voted": 201295468275570,
+        "turnout": 0.585618478625705,
+        "veto": 14505707174,
+        "veto_share": 7.206176720353157e-05,
+        "yes": 132079367147360,
+        "yes_share_non_abstain": 0.9972119377874678
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "submit_time": "2026-10-05T11:58:17.002622909Z",
+      "tally": {
+        "abstain_count": "68846826073786",
+        "no_count": "354769347250",
+        "no_with_veto_count": "14505707174",
+        "yes_count": "132079367147360"
+      },
+      "timelock": {
+        "expedited_voting_period_s": "259200s",
+        "post_passage_execution_timelock_s": 0,
+        "post_passage_timelock_source": "Cosmos SDK gov module: proposals execute at EndBlock on passage; no timelock parameter exists in gov params (see gov params snapshot).",
+        "voting_period_s": "604800s"
+      },
+      "title": "Move the 1,227,121 ATOM recovered after the Neutron exploit to the Neutron recovery multisig",
+      "total_deposit": [
+        {
+          "amount": "500000000",
+          "denom": "uatom"
+        }
+      ],
+      "votes_available": false,
+      "votes_fetched": 0,
+      "votes_limitation": "Per-vote list is EMPTY for this finalized proposal on the public LCD (verified on two LCD providers, gov v1 and v1beta1). Per-voter concentration cannot be computed for it; tally-based quorum/turnout is the only voter evidence. See chain-endpoints.md.",
+      "voting_end_time": "2026-10-12T11:58:17.002622909Z",
+      "voting_start_time": "2026-10-05T11:58:17.002622909Z"
+    }
+  ]
+}

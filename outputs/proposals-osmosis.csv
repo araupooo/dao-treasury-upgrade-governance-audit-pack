@@ -1,0 +1,4 @@
+chain,proposal_id,title,status,voting_end_time,turnout,quorum,quorum_met,yes_share_non_abstain,veto_share,passes_by_tally,votes_fetched,top1_voter_stake_share,top4_voter_stake_share,top10_voter_stake_share,voter_hhi,voter_gini,post_passage_timelock_s,upgrade_height
+Osmosis,1067,CosmWasm Pinning Update - November 2026,PROPOSAL_STATUS_VOTING_PERIOD,2026-11-14T17:20:59.790148559Z,0.566622,0.3,True,0.999991,0.000001,True,497,0.093555,0.311808,0.563363,0.039404,0.896767,0,
+Osmosis,1066,Signal a 10% Minimum Validator Commission,PROPOSAL_STATUS_VOTING_PERIOD,2026-11-14T15:34:57.846009494Z,0.544050,0.3,True,0.992804,0.000176,True,506,0.096155,0.320475,0.579021,0.041092,0.899770,0,
+Osmosis,1057,Burn Community Pool OSMO to Reach 100 Million Burned,PROPOSAL_STATUS_PASSED,2026-11-04T14:26:31.587674202Z,0.663490,0.3,True,0.999795,0.000010,True,0,,,,,,0,

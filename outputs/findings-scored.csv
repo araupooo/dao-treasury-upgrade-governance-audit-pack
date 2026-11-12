@@ -1,0 +1,13 @@
+id,severity,title,amount_at_risk,evidence_count
+F-01,Medium,No post-passage execution timelock on either chain,"Hub pool 11,548,584.08 ATOM; Osmosis pool 63,780,813.94 OSMO",4
+F-02,Medium,Per-vote records for finalized proposals are not retrievable from public LCDs,"n/a (verification gap, not a flow)",3
+F-03,Medium,USDC migration multisig threshold is not independently verifiable from the public LCD,"566,067.055810 USDC.n sent; 566,068.055810 USDC.inj returned",2
+F-04,Info,"USDC.n to USDC.inj migration reconciles, with a +1.000000 USDC difference","566,067.055810 USDC.n; delta +1.000000 USDC.inj",2
+F-05,Medium,Emergency powers are off-governance: chain halt and state change preceded the vote,"1,227,121.374688 ATOM moved by state change",3
+F-06,Low,Validator-set concentration is high on both chains,Hub bonded 343.73M ATOM; Osmosis bonded 155.28M OSMO,3
+F-07,Low,Voting-stake concentration in live votes is high (Gini ~0.88-0.90),"n/a (governance concentration, not a flow)",3
+F-08,Low,Osmosis community pool is static: no issuance or tax inflow in params,"Osmosis pool 63,780,813.94 OSMO; 11,104.00 ION",3
+F-09,Low,Gaia v29.1.0 upgrade executes about 24.6 hours after voting ends,"n/a (upgrade timing, not a flow)",1
+F-10,Info,Osmosis proposal 1066 is a non-binding signal with no executable message,n/a,2
+F-11,Info,Cosmos Hub proposal 1061 turnout is below quorum at the snapshot (vote still open),n/a,1
+F-12,Info,"Osmosis community-pool burn of 55,500,000 OSMO executed as specified","55,500,000 OSMO",1

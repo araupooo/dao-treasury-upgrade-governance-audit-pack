@@ -1,0 +1,4 @@
+chain,proposal_id,title,status,voting_end_time,turnout,quorum,quorum_met,yes_share_non_abstain,veto_share,passes_by_tally,votes_fetched,top1_voter_stake_share,top4_voter_stake_share,top10_voter_stake_share,voter_hhi,voter_gini,post_passage_timelock_s,upgrade_height
+Cosmos Hub,1061,Gaia v29.1.0 upgrade,PROPOSAL_STATUS_VOTING_PERIOD,2026-11-17T11:57:22.597335274Z,0.384387,0.4,False,1.000000,0.000000,False,865,0.105896,0.263351,0.393713,0.026887,0.877866,0,33935300
+Cosmos Hub,1060,Migrate Community Pool USDC.n to USDC.inj via a Community Multisig,PROPOSAL_STATUS_PASSED,2026-11-03T15:22:42.691395953Z,0.530225,0.4,True,0.999807,0.000023,True,0,,,,,,0,
+Cosmos Hub,1058,"Move the 1,227,121 ATOM recovered after the Neutron exploit to the Neutron recovery multisig",PROPOSAL_STATUS_PASSED,2026-10-12T11:58:17.002622909Z,0.585618,0.4,True,0.997212,0.000072,True,0,,,,,,0,

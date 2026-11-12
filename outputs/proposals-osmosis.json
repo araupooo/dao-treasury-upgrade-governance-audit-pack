@@ -1,0 +1,297 @@
+{
+  "bonded_tokens_base": 155281632876224,
+  "chain": "Osmosis",
+  "chain_id": "osmosis",
+  "gov_params": {
+    "burn_proposal_deposit_prevote": false,
+    "burn_vote_quorum": false,
+    "burn_vote_veto": true,
+    "expedited_min_deposit": [
+      {
+        "amount": "100000000000",
+        "denom": "uosmo"
+      }
+    ],
+    "expedited_threshold": "0.800000000000000000",
+    "expedited_voting_period": "86400s",
+    "max_deposit_period": "1209600s",
+    "min_deposit": [
+      {
+        "amount": "30000000000",
+        "denom": "uosmo"
+      }
+    ],
+    "min_deposit_ratio": "0.010000000000000000",
+    "min_initial_deposit_ratio": "0.250000000000000000",
+    "proposal_cancel_dest": "",
+    "proposal_cancel_ratio": "1",
+    "quorum": "0.300000000000000000",
+    "threshold": "0.500000000000000000",
+    "veto_threshold": "0.334000000000000000",
+    "voting_period": "432000s"
+  },
+  "lcd": "https://rest.cosmos.directory/osmosis",
+  "proposals": [
+    {
+      "emergency_powers": {
+        "note": "No pause/halt/emergency message type appears in gov params or in this proposal's messages. Emergency action on these chains is therefore off-governance (validator-coordinated halt / social consensus), not an on-chain power. See findings report for the proposal-1058 case.",
+        "pause_or_halt_authority_in_gov_params": false,
+        "pause_or_halt_message_in_proposal": false
+      },
+      "id": 1067,
+      "messages": [
+        {
+          "detail": {
+            "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+            "code_ids": [
+              "555",
+              "852",
+              "1239",
+              "1240",
+              "1241",
+              "1874",
+              "1905"
+            ]
+          },
+          "type": "/cosmwasm.wasm.v1.MsgPinCodes"
+        },
+        {
+          "detail": {
+            "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+            "code_ids": [
+              "1",
+              "39",
+              "41",
+              "46",
+              "142",
+              "149",
+              "150",
+              "151",
+              "152",
+              "182",
+              "183",
+              "254",
+              "256",
+              "259",
+              "327",
+              "361",
+              "365",
+              "366",
+              "367",
+              "575",
+              "588",
+              "641",
+              "732",
+              "744",
+              "809",
+              "825",
+              "831",
+              "832",
+              "833",
+              "844",
+              "1054",
+              "1064",
+              "1151",
+              "1152",
+              "1153",
+              "1175",
+              "1352",
+              "1355",
+              "1357",
+              "1358",
+              "1361",
+              "1362"
+            ]
+          },
+          "type": "/cosmwasm.wasm.v1.MsgUnpinCodes"
+        }
+      ],
+      "metadata": "Not Used",
+      "quorum_evaluation": {
+        "abstain": 2754617236943,
+        "no": 736000014,
+        "passes_by_tally": true,
+        "quorum": 0.3,
+        "quorum_met": true,
+        "total_voted": 87985940432075,
+        "turnout": 0.5666216847565556,
+        "veto": 54900000,
+        "veto_share": 6.239633256222647e-07,
+        "yes": 85230532295118,
+        "yes_share_non_abstain": 0.9999907205475129
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "submit_time": "2026-11-09T17:20:59.790148559Z",
+      "tally": {
+        "abstain_count": "2754617236943",
+        "no_count": "736000014",
+        "no_with_veto_count": "54900000",
+        "yes_count": "85230532295118"
+      },
+      "timelock": {
+        "expedited_voting_period_s": "86400s",
+        "post_passage_execution_timelock_s": 0,
+        "post_passage_timelock_source": "Cosmos SDK gov module: proposals execute at EndBlock on passage; no timelock parameter exists in gov params (see gov params snapshot).",
+        "voting_period_s": "432000s"
+      },
+      "title": "CosmWasm Pinning Update - November 2026",
+      "total_deposit": [
+        {
+          "amount": "30000000000",
+          "denom": "uosmo"
+        }
+      ],
+      "vote_concentration": {
+        "gini": 0.8967673592029807,
+        "hhi": 0.03940418040077146,
+        "stake_basis": "Current delegated stake at fetch time (snapshot), not stake at vote time. Voters with no current delegation contribute 0 and are excluded from shares.",
+        "stake_by_option": {
+          "VOTE_OPTION_ABSTAIN": 54741713975,
+          "VOTE_OPTION_NO": 1277700014,
+          "VOTE_OPTION_NO_WITH_VETO": 67625691,
+          "VOTE_OPTION_YES": 1553497781998
+        },
+        "top10_share": 0.5633632369977722,
+        "top1_share": 0.09355518141815876,
+        "top4_share": 0.31180811588903157,
+        "total_voter_stake_base": 1609584821678,
+        "voters_with_delegated_stake": 494,
+        "voters_with_zero_or_no_stake": 3,
+        "yes_stake_share_of_voter_stake": 0.9651543435769175
+      },
+      "votes_available": true,
+      "votes_fetched": 497,
+      "voting_end_time": "2026-11-14T17:20:59.790148559Z",
+      "voting_start_time": "2026-11-09T17:20:59.790148559Z"
+    },
+    {
+      "emergency_powers": {
+        "note": "No pause/halt/emergency message type appears in gov params or in this proposal's messages. Emergency action on these chains is therefore off-governance (validator-coordinated halt / social consensus), not an on-chain power. See findings report for the proposal-1058 case.",
+        "pause_or_halt_authority_in_gov_params": false,
+        "pause_or_halt_message_in_proposal": false
+      },
+      "id": 1066,
+      "messages": [],
+      "metadata": "Not Used",
+      "quorum_evaluation": {
+        "abstain": 29910316306459,
+        "no": 377758920962,
+        "passes_by_tally": true,
+        "quorum": 0.3,
+        "quorum_met": true,
+        "total_voted": 84481040982405,
+        "turnout": 0.5440504418815932,
+        "veto": 14909938410,
+        "veto_share": 0.00017648857349077075,
+        "yes": 54178055816574,
+        "yes_share_non_abstain": 0.9928044045281832
+      },
+      "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+      "submit_time": "2026-11-09T15:34:57.846009494Z",
+      "tally": {
+        "abstain_count": "29910316306459",
+        "no_count": "377758920962",
+        "no_with_veto_count": "14909938410",
+        "yes_count": "54178055816574"
+      },
+      "timelock": {
+        "expedited_voting_period_s": "86400s",
+        "post_passage_execution_timelock_s": 0,
+        "post_passage_timelock_source": "Cosmos SDK gov module: proposals execute at EndBlock on passage; no timelock parameter exists in gov params (see gov params snapshot).",
+        "voting_period_s": "432000s"
+      },
+      "title": "Signal a 10% Minimum Validator Commission",
+      "total_deposit": [
+        {
+          "amount": "30000000000",
+          "denom": "uosmo"
+        }
+      ],
+      "vote_concentration": {
+        "gini": 0.8997704057452957,
+        "hhi": 0.04109180236883421,
+        "stake_basis": "Current delegated stake at fetch time (snapshot), not stake at vote time. Voters with no current delegation contribute 0 and are excluded from shares.",
+        "stake_by_option": {
+          "VOTE_OPTION_ABSTAIN": 167448281837,
+          "VOTE_OPTION_NO": 401034641654,
+          "VOTE_OPTION_NO_WITH_VETO": 14928194101,
+          "VOTE_OPTION_YES": 982646391571
+        },
+        "top10_share": 0.5790214663621395,
+        "top1_share": 0.09615547265597042,
+        "top4_share": 0.32047457240522237,
+        "total_voter_stake_base": 1566057509163,
+        "voters_with_delegated_stake": 503,
+        "voters_with_zero_or_no_stake": 3,
+        "yes_stake_share_of_voter_stake": 0.6274650744442892
+      },
+      "votes_available": true,
+      "votes_fetched": 506,
+      "voting_end_time": "2026-11-14T15:34:57.846009494Z",
+      "voting_start_time": "2026-11-09T15:34:57.846009494Z"
+    },
+    {
+      "emergency_powers": {
+        "note": "No pause/halt/emergency message type appears in gov params or in this proposal's messages. Emergency action on these chains is therefore off-governance (validator-coordinated halt / social consensus), not an on-chain power. See findings report for the proposal-1058 case.",
+        "pause_or_halt_authority_in_gov_params": false,
+        "pause_or_halt_message_in_proposal": false
+      },
+      "id": 1057,
+      "messages": [
+        {
+          "detail": {
+            "amount": [
+              {
+                "amount": "55500000000000",
+                "denom": "uosmo"
+              }
+            ],
+            "authority": "osmo10d07y265gmmuvt4z0w9aw880jnsr700jjeq4qp",
+            "recipient": "osmo1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqmcn030"
+          },
+          "type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend"
+        }
+      ],
+      "metadata": "Not Used",
+      "quorum_evaluation": {
+        "abstain": 9140386888817,
+        "no": 18241966240,
+        "passes_by_tally": true,
+        "quorum": 0.3,
+        "quorum_met": true,
+        "total_voted": 103027852778051,
+        "turnout": 0.6634902716419473,
+        "veto": 1043600000,
+        "veto_share": 1.0129299717118128e-05,
+        "yes": 93868180322994,
+        "yes_share_non_abstain": 0.9997945884889177
+      },
+      "status": "PROPOSAL_STATUS_PASSED",
+      "submit_time": "2026-10-30T14:26:31.587674202Z",
+      "tally": {
+        "abstain_count": "9140386888817",
+        "no_count": "18241966240",
+        "no_with_veto_count": "1043600000",
+        "yes_count": "93868180322994"
+      },
+      "timelock": {
+        "expedited_voting_period_s": "86400s",
+        "post_passage_execution_timelock_s": 0,
+        "post_passage_timelock_source": "Cosmos SDK gov module: proposals execute at EndBlock on passage; no timelock parameter exists in gov params (see gov params snapshot).",
+        "voting_period_s": "432000s"
+      },
+      "title": "Burn Community Pool OSMO to Reach 100 Million Burned",
+      "total_deposit": [
+        {
+          "amount": "30000000000",
+          "denom": "uosmo"
+        }
+      ],
+      "votes_available": false,
+      "votes_fetched": 0,
+      "votes_limitation": "Per-vote list is EMPTY for this finalized proposal on the public LCD (verified on two LCD providers, gov v1 and v1beta1). Per-voter concentration cannot be computed for it; tally-based quorum/turnout is the only voter evidence. See chain-endpoints.md.",
+      "voting_end_time": "2026-11-04T14:26:31.587674202Z",
+      "voting_start_time": "2026-10-30T14:26:31.587674202Z"
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "bond_pool_change": {
+    "blocks_span": 101052,
+    "delta_base": "25072360283.875000",
+    "delta_whole": 25072.360283875,
+    "denom": "uatom",
+    "hist_base": "11523511723368.829918587339741183",
+    "now_base": "11548584083652.704590414927285005"
+  },
+  "bonded_tokens_base": 343731297781404,
+  "chain": "Cosmos Hub",
+  "chain_id": "cosmoshub-4",
+  "community_pool_hist": [
+    {
+      "amount": "2.000000000000000000",
+      "denom": "cosmosvaloper1gf3dm2mvqhymts6ksrstlyuu2m8pw6dhfp9md2/114786"
+    },
+    {
+      "amount": "5782932873.458591474467017846",
+      "denom": "ibc/0025F8A87464A471E66B234C4F93AEC5B4DA3D42D7986451A059273426290DD5"
+    },
+    {
+      "amount": "4521833529.766077795831659562",
+      "denom": "ibc/054892D6BB43AF8B93AAC28AA5FD7019D2C59A15DAFD6F45C1FA2BF9BDA22454"
+    },
+    {
+      "amount": "167497.000000000000000000",
+      "denom": "ibc/05C7702E4C88217C9D9E3EC63EF3B90B4BBC4B75F213E201295F35C9D89416AD"
+    },
+    {
+      "amount": "85081103940.325940257520968651",
+      "denom": "ibc/0872AF0D1B0F6F23BA67631F9A4AFF633F289EE7B390478D7BA4F064A5135162"
+    },
+    {
+      "amount": "12023251232477241.000000000000000000",
+      "denom": "ibc/0B543960517F8FB33F6E368A42893DD29897BE3E08583F2F40F492F03D98F675"
+    },
+    {
+      "amount": "45114836.000000000000000000",
+      "denom": "ibc/12DA42304EE1CE96071F712AA4D58186AD11C3165C0DCDA71E017A54F3935E66"
+    },
+    {
+      "amount": "212414600.000000000000000000",
+      "denom": "ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC"
+    },
+    {
+      "amount": "3459143381.000000000000000000",
+      "denom": "ibc/17DABEBAC71C388DA064A3D54FB7E68BAF0687965EC39DEADA1FB78C0F1447E6"
+    },
+    {
+      "amount": "31321068.000000000000000000",
+      "denom": "ibc/1FBDD58D438B4D04D26CBFB2E722C18984A0F1A52468C4F42F37D102F3D3F399"
+    },
+    {
+      "amount": "176779602.000000000000000000",
+      "denom": "ibc/2181AAB0218EAC24BC9F86BD1364FBBFA3E6E3FCC25E88E3E68C15DC6E752D86"
+    },
+    {
+      "amount": "148345226.663270965901802513",
+      "denom": "ibc/27BCBC098A3AE31C80E18A3EA7A516F2530B7362F83D7992A4D7888DBB586D33"
+    },
+    {
+      "amount": "166000000000.000000000000000000",
+      "denom": "ibc/3622BC03E5098BF3EC0A2DB13E5031668290B98020C5FADB7901207F44C4D717"
+    },
+    {
+      "amount": "1398241011967334.000000000000000000",
+      "denom": "ibc/3D0840AB3557CC2940D100C1633690143AB4F392AF969EB0660142A9A5B1FE74"
+    },
+    {
+      "amount": "540000000000.000000000000000000",
+      "denom": "ibc/3EF74C1B9F5C65F2F9619B0C5A35135624BD15759D016678F86485DD1C5AA24A"
+    },
+    {
+      "amount": "537818905004068215853.000000000000000000",
+      "denom": "ibc/3F0A41ECB6FAF27E315583DBF39B5B69A7149D23959A0E4B319F7EF5C618DCD7"
+    },
+    {
+      "amount": "262295813.000000000000000000",
+      "denom": "ibc/42E47A5BA708EBE6E0C227006254F2784E209F4DBD3C6BB77EDC4B29EF875E8E"
+    },
+    {
+      "amount": "41654352.000000000000000000",
+      "denom": "ibc/4E0D0854C0F846150FA8389D75EA5B5129B17703D7F4992D0356B4FE7C013D42"
+    },
+    {
+      "amount": "97191282.424568056843537142",
+      "denom": "ibc/5CAE744C89BC70AE7B38019A1EDF83199B7E10F00F160E7F4F12BCA7A32A7EE5"
+    },
+    {
+      "amount": "53494341371677867503012.000000000000000000",
+      "denom": "ibc/61A6F21D6AFF9835F66056461F1CAE24AA3323820259856B485FE7C063CA4FA6"
+    },
+    {
+      "amount": "16509616687.088534440365298944",
+      "denom": "ibc/6B8A3F5C2AD51CD6171FA41A7E8C35AD594AB69226438DB94450436EA57B3A89"
+    },
+    {
+      "amount": "10000000000.000000000000000000",
+      "denom": "ibc/70207C6ED1F8EE8BA679A7929F0B5C0C74DB2BDC7440185B8A6FB2B7D0739EFA"
+    },
+    {
+      "amount": "50072074.000000000000000000",
+      "denom": "ibc/7054742D02E4F28B7DB5B44D97A496CF5AD16C2AE6948028A5FD57DCE7C5E271"
+    },
+    {
+      "amount": "11329103592.787186536110377290",
+      "denom": "ibc/715BD634CF4D914C3EE93B0F8A9D2514B743F6FE36BC80263D1BC5EE4B3C5D40"
+    },
+    {
+      "amount": "150000000000.000000000000000000",
+      "denom": "ibc/75D71FC4B410C128F0224795BEB6D74ABBDAC97C11D956938DE34CCF149153BE"
+    },
+    {
+      "amount": "1152989626831.394383754256328516",
+      "denom": "ibc/7A64BFC809209157A1330CE199891B699A2C3B55C384EAFCCDD23ECDC735BA73"
+    },
+    {
+      "amount": "29607140.000000000000000000",
+      "denom": "ibc/81D08BC39FB520EBD948CF017910DD69702D34BF5AC160F76D3B5CFC444EBCE0"
+    },
+    {
+      "amount": "86854656855.000000000000000000",
+      "denom": "ibc/88C8D98E544B20319F69F3A7E0F9E0FB3D4163DF2FFCAF7B603B42DE9E0EC333"
+    },
+    {
+      "amount": "1042722431.136506057225972174",
+      "denom": "ibc/88DCAA43A9CD099E1F9BBB80B9A90F64782EBA115A84B2CD8398757ADA4F4B40"
+    },
+    {
+      "amount": "360000000000.000000000000000000",
+      "denom": "ibc/915992C8486D299941292A913640167F0BA02DC2F599BFFED0732CE932C2FCC4"
+    },
+    {
+      "amount": "185161456.716956395872133614",
+      "denom": "ibc/A4D99E716D91A579AC3A9684AAB7B5CB0A0861DD3DD942901D970EDB6787860E"
+    },
+    {
+      "amount": "44624000000.000000000000000000",
+      "denom": "ibc/AFC2F1B2FD45D549E34445E63921ECDECF1EAC68DA72412C2E087BEB503693F2"
+    },
+    {
+      "amount": "27946698070903585451.556152043123767651",
+      "denom": "ibc/B011C1A0AD5E717F674BA59FD8E05B2F946E4FD41C9CB3311C95F7ED4B815620"
+    },
+    {
+      "amount": "1334787889.857607902791069971",
+      "denom": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231"
+    },
+    {
+      "amount": "362405771499.000000000000000000",
+      "denom": "ibc/B0845B48D3CA9F66B4E2DD610B39E36A7A7CFACA2629D9BA880241AE5688B61D"
+    },
+    {
+      "amount": "4765472751415626516399.583046046232257995",
+      "denom": "ibc/B38AAA0F7A3EC4D7C8E12DFA33FF93205FE7A42738A4B0590E2FF15BC60A612B"
+    },
+    {
+      "amount": "10000000000.000000000000000000",
+      "denom": "ibc/C0871F633115A0029693BC0D72D0E563E53767E00FBC3B6A7D587A0BDA4E646F"
+    },
+    {
+      "amount": "280187556858.801360129354387050",
+      "denom": "ibc/D3FB6378599E31A4BD5965173BF6CE873DD2FD5270F8ABD8769765BEF2E0EA5D"
+    },
+    {
+      "amount": "11107776886.097973742872895562",
+      "denom": "ibc/D41ECC8FEF1B7E9C4BCC58B1362588420853A9D0B898EDD513D9B79AFFA195C8"
+    },
+    {
+      "amount": "500000000000.000000000000000000",
+      "denom": "ibc/DA8A15E8BC3962CC433F2B4CA0B3233723DE4A1A68B17DB85C63ECC5B0F83F65"
+    },
+    {
+      "amount": "3398.204484648063130008",
+      "denom": "ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3"
+    },
+    {
+      "amount": "566068055810.000000000000000000",
+      "denom": "ibc/E107DB3E8AABB49C87CB737A1ABBFDBA9803ECAE05E295D8D7A0B1A7FE83706C"
+    },
+    {
+      "amount": "18000000000.000000000000000000",
+      "denom": "ibc/E887410548945515844745F5331A721BD586EDA4BB30343EA00BE43BE3BB6708"
+    },
+    {
+      "amount": "1151216639.478228575467102385",
+      "denom": "ibc/E92E07E68705FAD13305EE9C73684B30A7B66A52F54C9890327E0A4C0F1D22E3"
+    },
+    {
+      "amount": "1393637574.000000000000000000",
+      "denom": "ibc/E9401AC885592AC2023E0FB9BA7C8BC66D346CEE04CED8E9F545F3C25290708A"
+    },
+    {
+      "amount": "24272512830947309129558.000000000000000000",
+      "denom": "ibc/EEFD952A6DE346F2649039E99A16430B05FFEDF628A4DE99F34BB4B5F6A9346E"
+    },
+    {
+      "amount": "9645.000000000000000000",
+      "denom": "ibc/F03737E0987091168D116A94C58E99C76C3D92D1A457CB000D6C40AD96F59313"
+    },
+    {
+      "amount": "164832722.000000000000000000",
+      "denom": "ibc/F918765AC289257B35DECC52BD92EBCDBA3C139658BD6F2670D70A6E10B97F58"
+    },
+    {
+      "amount": "634431322.630509541108150784",
+      "denom": "ibc/FA33D22EED651DC2D251315AAE2E7C5BA924D308081EE9760AE653AA2F6661CB"
+    },
+    {
+      "amount": "11523511723368.829918587339741183",
+      "denom": "uatom"
+    }
+  ],
+  "community_pool_hist_height": 33746800,
+  "community_pool_now": [
+    {
+      "amount": "2.000000000000000000",
+      "denom": "cosmosvaloper1gf3dm2mvqhymts6ksrstlyuu2m8pw6dhfp9md2/114786"
+    },
+    {
+      "amount": "5782941936.772335385976163099",
+      "denom": "ibc/0025F8A87464A471E66B234C4F93AEC5B4DA3D42D7986451A059273426290DD5"
+    },
+    {
+      "amount": "4521845150.437927790626608183",
+      "denom": "ibc/054892D6BB43AF8B93AAC28AA5FD7019D2C59A15DAFD6F45C1FA2BF9BDA22454"
+    },
+    {
+      "amount": "167497.000000000000000000",
+      "denom": "ibc/05C7702E4C88217C9D9E3EC63EF3B90B4BBC4B75F213E201295F35C9D89416AD"
+    },
+    {
+      "amount": "85081105966.595911565710414670",
+      "denom": "ibc/0872AF0D1B0F6F23BA67631F9A4AFF633F289EE7B390478D7BA4F064A5135162"
+    },
+    {
+      "amount": "12023251232477241.000000000000000000",
+      "denom": "ibc/0B543960517F8FB33F6E368A42893DD29897BE3E08583F2F40F492F03D98F675"
+    },
+    {
+      "amount": "45114836.000000000000000000",
+      "denom": "ibc/12DA42304EE1CE96071F712AA4D58186AD11C3165C0DCDA71E017A54F3935E66"
+    },
+    {
+      "amount": "212414600.000000000000000000",
+      "denom": "ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC"
+    },
+    {
+      "amount": "3459143381.000000000000000000",
+      "denom": "ibc/17DABEBAC71C388DA064A3D54FB7E68BAF0687965EC39DEADA1FB78C0F1447E6"
+    },
+    {
+      "amount": "31321068.000000000000000000",
+      "denom": "ibc/1FBDD58D438B4D04D26CBFB2E722C18984A0F1A52468C4F42F37D102F3D3F399"
+    },
+    {
+      "amount": "176779602.000000000000000000",
+      "denom": "ibc/2181AAB0218EAC24BC9F86BD1364FBBFA3E6E3FCC25E88E3E68C15DC6E752D86"
+    },
+    {
+      "amount": "148347299.040556049133452901",
+      "denom": "ibc/27BCBC098A3AE31C80E18A3EA7A516F2530B7362F83D7992A4D7888DBB586D33"
+    },
+    {
+      "amount": "166000000000.000000000000000000",
+      "denom": "ibc/3622BC03E5098BF3EC0A2DB13E5031668290B98020C5FADB7901207F44C4D717"
+    },
+    {
+      "amount": "1398241011967334.000000000000000000",
+      "denom": "ibc/3D0840AB3557CC2940D100C1633690143AB4F392AF969EB0660142A9A5B1FE74"
+    },
+    {
+      "amount": "540000000000.000000000000000000",
+      "denom": "ibc/3EF74C1B9F5C65F2F9619B0C5A35135624BD15759D016678F86485DD1C5AA24A"
+    },
+    {
+      "amount": "537818905004068215853.000000000000000000",
+      "denom": "ibc/3F0A41ECB6FAF27E315583DBF39B5B69A7149D23959A0E4B319F7EF5C618DCD7"
+    },
+    {
+      "amount": "262295813.000000000000000000",
+      "denom": "ibc/42E47A5BA708EBE6E0C227006254F2784E209F4DBD3C6BB77EDC4B29EF875E8E"
+    },
+    {
+      "amount": "41654352.000000000000000000",
+      "denom": "ibc/4E0D0854C0F846150FA8389D75EA5B5129B17703D7F4992D0356B4FE7C013D42"
+    },
+    {
+      "amount": "97201253.318668318355015462",
+      "denom": "ibc/5CAE744C89BC70AE7B38019A1EDF83199B7E10F00F160E7F4F12BCA7A32A7EE5"
+    },
+    {
+      "amount": "53494341371677867503012.000000000000000000",
+      "denom": "ibc/61A6F21D6AFF9835F66056461F1CAE24AA3323820259856B485FE7C063CA4FA6"
+    },
+    {
+      "amount": "16509628183.524953437876310213",
+      "denom": "ibc/6B8A3F5C2AD51CD6171FA41A7E8C35AD594AB69226438DB94450436EA57B3A89"
+    },
+    {
+      "amount": "10000000000.000000000000000000",
+      "denom": "ibc/70207C6ED1F8EE8BA679A7929F0B5C0C74DB2BDC7440185B8A6FB2B7D0739EFA"
+    },
+    {
+      "amount": "50072074.000000000000000000",
+      "denom": "ibc/7054742D02E4F28B7DB5B44D97A496CF5AD16C2AE6948028A5FD57DCE7C5E271"
+    },
+    {
+      "amount": "11329115076.564317933696544184",
+      "denom": "ibc/715BD634CF4D914C3EE93B0F8A9D2514B743F6FE36BC80263D1BC5EE4B3C5D40"
+    },
+    {
+      "amount": "150000000000.000000000000000000",
+      "denom": "ibc/75D71FC4B410C128F0224795BEB6D74ABBDAC97C11D956938DE34CCF149153BE"
+    },
+    {
+      "amount": "1152989627044.663850839508916650",
+      "denom": "ibc/7A64BFC809209157A1330CE199891B699A2C3B55C384EAFCCDD23ECDC735BA73"
+    },
+    {
+      "amount": "29607140.000000000000000000",
+      "denom": "ibc/81D08BC39FB520EBD948CF017910DD69702D34BF5AC160F76D3B5CFC444EBCE0"
+    },
+    {
+      "amount": "86854656855.000000000000000000",
+      "denom": "ibc/88C8D98E544B20319F69F3A7E0F9E0FB3D4163DF2FFCAF7B603B42DE9E0EC333"
+    },
+    {
+      "amount": "1042733771.729350641231948991",
+      "denom": "ibc/88DCAA43A9CD099E1F9BBB80B9A90F64782EBA115A84B2CD8398757ADA4F4B40"
+    },
+    {
+      "amount": "360000000000.000000000000000000",
+      "denom": "ibc/915992C8486D299941292A913640167F0BA02DC2F599BFFED0732CE932C2FCC4"
+    },
+    {
+      "amount": "185171987.057323659076424279",
+      "denom": "ibc/A4D99E716D91A579AC3A9684AAB7B5CB0A0861DD3DD942901D970EDB6787860E"
+    },
+    {
+      "amount": "44624000000.000000000000000000",
+      "denom": "ibc/AFC2F1B2FD45D549E34445E63921ECDECF1EAC68DA72412C2E087BEB503693F2"
+    },
+    {
+      "amount": "27946698070903597180.585186665562349945",
+      "denom": "ibc/B011C1A0AD5E717F674BA59FD8E05B2F946E4FD41C9CB3311C95F7ED4B815620"
+    },
+    {
+      "amount": "1334799209.186860884433916423",
+      "denom": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231"
+    },
+    {
+      "amount": "362405771499.000000000000000000",
+      "denom": "ibc/B0845B48D3CA9F66B4E2DD610B39E36A7A7CFACA2629D9BA880241AE5688B61D"
+    },
+    {
+      "amount": "4765472751415626528185.957108628902845730",
+      "denom": "ibc/B38AAA0F7A3EC4D7C8E12DFA33FF93205FE7A42738A4B0590E2FF15BC60A612B"
+    },
+    {
+      "amount": "10000000000.000000000000000000",
+      "denom": "ibc/C0871F633115A0029693BC0D72D0E563E53767E00FBC3B6A7D587A0BDA4E646F"
+    },
+    {
+      "amount": "280187557400.011901140445202836",
+      "denom": "ibc/D3FB6378599E31A4BD5965173BF6CE873DD2FD5270F8ABD8769765BEF2E0EA5D"
+    },
+    {
+      "amount": "11107788412.572372271637327036",
+      "denom": "ibc/D41ECC8FEF1B7E9C4BCC58B1362588420853A9D0B898EDD513D9B79AFFA195C8"
+    },
+    {
+      "amount": "500000000000.000000000000000000",
+      "denom": "ibc/DA8A15E8BC3962CC433F2B4CA0B3233723DE4A1A68B17DB85C63ECC5B0F83F65"
+    },
+    {
+      "amount": "3400.223396408298840804",
+      "denom": "ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3"
+    },
+    {
+      "amount": "566068055810.000000000000000000",
+      "denom": "ibc/E107DB3E8AABB49C87CB737A1ABBFDBA9803ECAE05E295D8D7A0B1A7FE83706C"
+    },
+    {
+      "amount": "18000000000.000000000000000000",
+      "denom": "ibc/E887410548945515844745F5331A721BD586EDA4BB30343EA00BE43BE3BB6708"
+    },
+    {
+      "amount": "1151227518.622500725210809048",
+      "denom": "ibc/E92E07E68705FAD13305EE9C73684B30A7B66A52F54C9890327E0A4C0F1D22E3"
+    },
+    {
+      "amount": "1393637574.000000000000000000",
+      "denom": "ibc/E9401AC885592AC2023E0FB9BA7C8BC66D346CEE04CED8E9F545F3C25290708A"
+    },
+    {
+      "amount": "24272512830947309129558.000000000000000000",
+      "denom": "ibc/EEFD952A6DE346F2649039E99A16430B05FFEDF628A4DE99F34BB4B5F6A9346E"
+    },
+    {
+      "amount": "9645.000000000000000000",
+      "denom": "ibc/F03737E0987091168D116A94C58E99C76C3D92D1A457CB000D6C40AD96F59313"
+    },
+    {
+      "amount": "164832722.000000000000000000",
+      "denom": "ibc/F918765AC289257B35DECC52BD92EBCDBA3C139658BD6F2670D70A6E10B97F58"
+    },
+    {
+      "amount": "634437628.096982673234572815",
+      "denom": "ibc/FA33D22EED651DC2D251315AAE2E7C5BA924D308081EE9760AE653AA2F6661CB"
+    },
+    {
+      "amount": "11548584083652.704590414927285005",
+      "denom": "uatom"
+    }
+  ],
+  "community_pool_now_height": 33847852,
+  "community_pool_spends_recent": [
+    {
+      "amount": [
+        {
+          "amount": "566067055810",
+          "denom": "ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013"
+        }
+      ],
+      "proposal_id": "1060",
+      "recipient": "cosmos1amny2nf23uauu79lzp299tvh9v4a62uuxvh8xyj7qavrm0adztsq5sz864",
+      "status": "PROPOSAL_STATUS_PASSED",
+      "submit_time": "2026-10-27T15:22:42.691395953Z",
+      "title": "Migrate Community Pool USDC.n to USDC.inj via a Community Multisig",
+      "voting_end_time": "2026-11-03T15:22:42.691395953Z"
+    },
+    {
+      "amount": [
+        {
+          "amount": "1721120000000",
+          "denom": "uatom"
+        }
+      ],
+      "proposal_id": "1056",
+      "recipient": "cosmos1erq7tre6nk0jfx203z8ey75g4m7yfrckh2nk3v",
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "submit_time": "2026-09-23T23:20:17.999314823Z",
+      "title": "ATOM Refund & Justice Bounty",
+      "voting_end_time": "2026-09-30T23:20:17.999314823Z"
+    },
+    {
+      "amount": [
+        {
+          "amount": "300740000000",
+          "denom": "ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013"
+        }
+      ],
+      "proposal_id": "1054",
+      "recipient": "cosmos1fhwnl8tls2z4leyyvluyqq8erzmwzepcku8zkg",
+      "status": "PROPOSAL_STATUS_PASSED",
+      "submit_time": "2026-09-10T21:09:32.889664560Z",
+      "title": "ATOM Integration & Listing on Paxos\u2019 Regulated Brokerage Infrastructure",
+      "voting_end_time": "2026-09-17T21:09:32.889664560Z"
+    },
+    {
+      "amount": [
+        {
+          "amount": "202320000000",
+          "denom": "ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013"
+        }
+      ],
+      "proposal_id": "1043",
+      "recipient": "cosmos1ax7krw2ymq8upaxwce7df3xpalpp0jddm29fws",
+      "status": "PROPOSAL_STATUS_PASSED",
+      "submit_time": "2026-06-22T18:27:18.855489287Z",
+      "title": "Fund Hypha to operate the Hub's public testnet program for 2026/2027",
+      "voting_end_time": "2026-06-29T18:31:14.322746164Z"
+    },
+    {
+      "amount": [
+        {
+          "amount": "7000000000000",
+          "denom": "uatom"
+        }
+      ],
+      "proposal_id": "1022",
+      "recipient": "cosmos1hj9zuecf0xcjhx8ttcrwd9pmee25xe2plglgcpfk2kjjveet3zyq9nellq",
+      "status": "PROPOSAL_STATUS_REJECTED",
+      "submit_time": "2026-01-12T12:11:48.974847254Z",
+      "title": "Deploy community pool ATOM into Hydro\u2019s Inflow vault",
+      "voting_end_time": "2026-01-19T12:11:48.974847254Z"
+    }
+  ],
+  "distribution_params": {
+    "base_proposer_reward": "0.000000000000000000",
+    "bonus_proposer_reward": "0.000000000000000000",
+    "community_tax": "0.020000000000000000",
+    "withdraw_addr_enabled": true
+  },
+  "fetched_at_utc": "2026-11-12T18:30:22Z",
+  "gov_params": {
+    "burn_proposal_deposit_prevote": false,
+    "burn_vote_quorum": false,
+    "burn_vote_veto": true,
+    "expedited_min_deposit": [
+      {
+        "amount": "501000000",
+        "denom": "uatom"
+      }
+    ],
+    "expedited_threshold": "0.667000000000000000",
+    "expedited_voting_period": "259200s",
+    "max_deposit_period": "1209600s",
+    "min_deposit": [
+      {
+        "amount": "500000000",
+        "denom": "uatom"
+      }
+    ],
+    "min_deposit_ratio": "0.010000000000000000",
+    "min_initial_deposit_ratio": "0.100000000000000000",
+    "proposal_cancel_dest": "",
+    "proposal_cancel_ratio": "0.500000000000000000",
+    "quorum": "0.400000000000000000",
+    "threshold": "0.500000000000000000",
+    "veto_threshold": "0.334000000000000000",
+    "voting_period": "604800s"
+  },
+  "ibc_denoms": [
+    {
+      "claimed_hash": "F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013",
+      "computed_hash": "F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013",
+      "hash_matches_claim": true,
+      "label": "USDC.n (Noble)",
+      "pool_balance_base": null,
+      "present_in_pool_now": false,
+      "trace_path": "transfer/channel-536/uusdc"
+    },
+    {
+      "claimed_hash": "E107DB3E8AABB49C87CB737A1ABBFDBA9803ECAE05E295D8D7A0B1A7FE83706C",
+      "computed_hash": "E107DB3E8AABB49C87CB737A1ABBFDBA9803ECAE05E295D8D7A0B1A7FE83706C",
+      "hash_matches_claim": true,
+      "label": "USDC.inj (Injective)",
+      "pool_balance_base": "566068055810.000000000000000000",
+      "present_in_pool_now": true,
+      "trace_path": "transfer/channel-220/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a"
+    }
+  ],
+  "inflation": "0.100000000000000000",
+  "latest_block_time": "2026-11-12T18:30:12.701398978Z",
+  "latest_height": 33847852,
+  "lcd": "https://rest.cosmos.directory/cosmoshub",
+  "multisigs": [
+    {
+      "account_number": "3711051",
+      "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+      "address": "cosmos1z8pq5cn7tdrwwzlwm0e44fgq07e43ner6vph64",
+      "balances": [
+        {
+          "amount": "136746",
+          "denom": "uatom"
+        }
+      ],
+      "expected_signers": 6,
+      "expected_threshold": 4,
+      "pubkey_type": "/cosmos.crypto.multisig.LegacyAminoPubKey",
+      "role": "Neutron-exploit recovery multisig (proposal 1058)",
+      "sequence": "2",
+      "signer_keys_onchain": 6,
+      "threshold_onchain": 4,
+      "threshold_verifiable_onchain": true,
+      "wasm_contract_info": null
+    },
+    {
+      "account_number": "3724797",
+      "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+      "address": "cosmos1amny2nf23uauu79lzp299tvh9v4a62uuxvh8xyj7qavrm0adztsq5sz864",
+      "balances": [],
+      "expected_signers": 6,
+      "expected_threshold": 4,
+      "pubkey_type": null,
+      "role": "USDC.n -> USDC.inj migration multisig, DAODAO (proposal 1060)",
+      "sequence": "0",
+      "signer_keys_onchain": null,
+      "threshold_onchain": null,
+      "threshold_verifiable_onchain": false,
+      "wasm_contract_info": {
+        "address": "cosmos1amny2nf23uauu79lzp299tvh9v4a62uuxvh8xyj7qavrm0adztsq5sz864",
+        "contract_info": {
+          "admin": "cosmos1amny2nf23uauu79lzp299tvh9v4a62uuxvh8xyj7qavrm0adztsq5sz864",
+          "code_id": "179",
+          "created": {
+            "block_height": "33506400",
+            "tx_index": "106308"
+          },
+          "creator": "cosmos19jjaejvhfyqzjlgc6l2xa7w3gwwtvx4qvgad2gkw5dynxx2lmpxq9s5g3y",
+          "extension": null,
+          "ibc_port_id": "",
+          "label": "DAO DAO DAO (1792556315615)"
+        }
+      }
+    }
+  ],
+  "staking_params": {
+    "bond_denom": "uatom",
+    "historical_entries": 10000,
+    "max_entries": 7,
+    "max_validators": 180,
+    "min_commission_rate": "0.050000000000000000",
+    "unbonding_time": "1814400s"
+  },
+  "staking_pool": {
+    "bonded_tokens": "343731297781404",
+    "not_bonded_tokens": "13809226547345"
+  },
+  "validator_concentration": {
+    "gini": 0.7989027546408948,
+    "hhi": 0.058547394487807485,
+    "n": 180,
+    "top10_share": 0.5655897508762169,
+    "top1_share": 0.19027213272262955,
+    "top4_share": 0.38150264057356786,
+    "total": 343731297781404.0
+  }
+}
